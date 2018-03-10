@@ -1,0 +1,610 @@
+@font-face {
+    font-family: 'allerbold';
+    src: url('../fonts/Aller/aller_bd-webfont.woff2') format('woff2'),
+         url('../fonts/Aller/aller_bd-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'allerbold_italic';
+    src: url('../fonts/Aller/aller_bdit-webfont.woff2') format('woff2'),
+         url('../fonts/Aller/aller_bdit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'alleritalic';
+    src: url('../fonts/Aller/aller_it-webfont.woff2') format('woff2'),
+         url('../fonts/Aller/aller_it-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aller_lightregular';
+    src: url('../fonts/Aller/aller_lt-webfont.woff2') format('woff2'),
+         url('../fonts/Aller/aller_lt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aller_lightitalic';
+    src: url('../fonts/Aller/aller_ltit-webfont.woff2') format('woff2'),
+         url('../fonts/Aller/aller_ltit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'allerregular';
+    src: url('../fonts/Aller/aller_rg-webfont.woff2') format('woff2'),
+         url('../fonts/Aller/aller_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aller_displayregular';
+    src: url('../fonts/Aller/allerdisplay-webfont.woff2') format('woff2'),
+         url('../fonts/Aller/allerdisplay-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+section{
+  height: 850px;
+}
+
+.conteudo_contato{
+  width: 1600px;
+  height: 860px;
+  float: left;
+
+}
+
+.cadastro_campos{
+  width: 900px;
+  height: 700px;
+  margin-left: 300px;
+  margin-top: 50px;
+  float: left;
+
+}
+
+.nome{
+  width: 700px;
+  height: 40px;
+  position: relative;
+  margin-bottom: 2.4em;
+  float: left;
+  margin-left: 100px;
+  margin-top: 20px;
+
+}
+
+.titulo_nome{
+  font-size: 20px;
+  font-weight: normal;
+  font-family: aller_lightregular;
+  position: absolute;
+  pointer-events: none;
+  top: 5px;
+  transition: 0.2s ease all;
+  margin-left: 10px;
+  float: left;
+  color: #9c0404;
+}
+
+.vem_do_banco{
+  margin-left: 80px;
+  font-family: aller_lightregular;
+  margin-top: 8px;
+  float: left;
+
+}
+
+
+.email{
+  width: 700px;
+  height: 40px;
+  position: relative;
+  margin-bottom: 2.4em;
+  float: left;
+  margin-left: 100px;
+  margin-top: -20px;
+
+}
+
+.titulo_email{
+  font-size: 20px;
+  font-weight: normal;
+  font-family: aller_lightregular;
+  position: absolute;
+  pointer-events: none;
+  top: 5px;
+  transition: 0.2s ease all;
+  margin-left: 10px;
+  float: left;
+  color: #9c0404;
+}
+
+.vem_do_banco2{
+  margin-left: 80px;
+  font-family: aller_lightregular;
+  margin-top: 8px;
+  float: left;
+
+}
+
+
+
+.telefone{
+  width: 350px;
+  height: 40px;
+  position: relative;
+  margin-bottom: 2.4em;
+  float: left;
+  margin-left: 100px;
+  margin-top: -20px;
+}
+
+.titulo_telefone{
+  font-size: 20px;
+  font-weight: normal;
+  font-family: aller_lightregular;
+  position: absolute;
+  pointer-events: none;
+  top: 5px;
+  transition: 0.2s ease all;
+  margin-left: 10px;
+  color: #9c0404;
+}
+
+.vem_do_banco3{
+  margin-left: 90px;
+  font-family: aller_lightregular;
+  margin-top: 8px;
+  float: left;
+
+}
+
+
+.celular{
+  width: 340px;
+  height: 40px;
+  position: relative;
+  margin-bottom: 2.4em;
+  float: left;
+  margin-left: 10px;
+  margin-top: -20px;
+}
+
+
+
+.titulo_celular{
+  font-size: 20px;
+  font-weight: normal;
+  font-family: aller_lightregular;
+  position: absolute;
+  pointer-events: none;
+  top: 5px;
+  transition: 0.2s ease all;
+  margin-left: 10px;
+  color: #9c0404;
+}
+
+.vem_do_banco4{
+  margin-left: 80px;
+  font-family: aller_lightregular;
+  margin-top: 8px;
+  float: left;
+
+}
+
+.campo_filial{
+  width: 350px;
+  height: 40px;
+  position: relative;
+  margin-bottom: 2.4em;
+  float: left;
+  margin-left: 100px;
+  margin-top: -20px;
+}
+
+.titulo_filial{
+  font-size: 20px;
+  font-weight: normal;
+  font-family: aller_lightregular;
+  position: absolute;
+  pointer-events: none;
+  top: 5px;
+  transition: 0.2s ease all;
+  margin-left: 10px;
+  color: #9c0404;
+}
+
+.vem_do_banco5{
+  margin-left: 65px;
+  font-family: aller_lightregular;
+  margin-top: 8px;
+  float: left;
+
+}
+
+.ocorrencia{
+  width: 340px;
+  height: 40px;
+  position: relative;
+  margin-bottom: 2.4em;
+  float: left;
+  margin-left: 10px;
+  margin-top: -20px;
+}
+
+
+
+.titulo_ocorrencia{
+  font-size: 20px;
+  font-weight: normal;
+  font-family: aller_lightregular;
+  position: absolute;
+  pointer-events: none;
+  top: 5px;
+  transition: 0.2s ease all;
+  margin-left: 10px;
+  color: #9c0404;
+}
+
+.vem_do_banco6{
+  margin-left: 115px;
+  font-family: aller_lightregular;
+  margin-top: 8px;
+  float: left;
+
+}
+
+.text_area{
+  width: 700px;
+  height: 300px;
+  margin-top: -20px;
+  margin-left: 100px;
+  float: left;
+
+}
+
+.area_do_texto{
+  width: 100%;
+  height: 300px;
+  resize: none;
+
+}
+
+.area_dos_botoes{
+  width: 700px;
+  height: 100px;
+  margin-top: 20px;
+  margin-left: 100px;
+  float: left;
+
+}
+
+.botao_respondido{
+  width: 200px;
+  height: 100px;
+  margin-left: 270px;
+  float: left;
+
+}
+
+.botao_nao_lida{
+  width: 200px;
+  height: 100px;
+  margin-left: 15px;
+  float: left;
+
+
+}
+
+.lida{
+width: 200px;
+height: 55px;
+margin-top: 20px;
+border: 3px solid #9c0404;
+outline: none;
+color: #9c0404;
+background-color: #fff;
+font-size: 18px;
+font-family: aller_lightregular;
+
+}
+
+.lida:hover{
+  color: #fff;
+  background-color: #9c0404;
+  transition: 0.2s;
+
+}
+
+.nao_lida{
+width: 200px;
+height: 55px;
+margin-top: 20px;
+border: 3px solid #9c0404;
+outline: none;
+color: #9c0404;
+background-color: #fff;
+font-size: 18px;
+font-family: aller_lightregular;
+
+}
+
+.nao_lida:hover{
+  color: #fff;
+  background-color: #9c0404;
+  transition: 0.2s;
+
+}
+
+.sede{
+  width: 100%;
+  height: 300px;
+  float: left;
+
+}
+
+.titulo_sede{
+font-size: 30px;
+font-family: aller_lightregular;
+color: #9c0404;
+margin-left: 30px;
+margin-top: 20px;
+
+}
+
+.contato_sede1{
+  width: 330px;
+  height: 200px;
+  margin-left: 100px;
+  float: left;
+
+}
+
+.contato_sede2{
+  width: 330px;
+  height: 200px;
+  margin-left: 10px;
+  float: left;
+
+}
+
+.contato_sede3{
+  width: 330px;
+  height: 200px;
+  margin-left: 10px;
+  float: left;
+
+}
+
+.contato_sede4{
+  width: 330px;
+  height: 200px;
+  margin-left: 10px;
+  float: left;
+
+}
+
+.filial{
+  width: 100%;
+  height: 300px;
+  float: left;
+
+}
+
+
+.titulo_filial_grande{
+  font-size: 30px;
+  font-family: aller_lightregular;
+  color: #9c0404;
+  margin-left: 30px;
+  margin-top: 20px;
+
+}
+
+
+.contato_filial1{
+  width: 330px;
+  height: 200px;
+  margin-left: 100px;
+  float: left;
+
+}
+
+.contato_filial2{
+  width: 330px;
+  height: 200px;
+  margin-left: 10px;
+  float: left;
+
+}
+
+.contato_filial3{
+  width: 330px;
+  height: 200px;
+  margin-left: 10px;
+  float: left;
+
+}
+
+.contato_filial4{
+  width: 330px;
+  height: 200px;
+  margin-left: 10px;
+  float: left;
+
+}
+
+.table_contatos_sede{
+  width: 330px;
+  height: 200px;
+  border: solid 1px #000;
+
+}
+
+
+.contato_nome_sede{
+  width: 100px;
+  font-size: 18px;
+  font-family: aller_lightregular;
+  color: #9c0404;
+  text-align: center;
+
+}
+
+.contato_nome_banco_sede{
+  font-size: 18px;
+  font-family: aller_lightregular;
+
+}
+
+.contato_email_sede{
+  width: 100px;
+  font-size: 18px;
+  font-family: aller_lightregular;
+  color: #9c0404;
+  margin-left: 10px;
+  text-align: center;
+
+}
+
+.contato_email_banco_sede{
+  font-size: 18px;
+  font-family: aller_lightregular;
+
+}
+
+.contato_telefone_sede{
+  width: 100px;
+  font-size: 18px;
+  font-family: aller_lightregular;
+  color: #9c0404;
+  margin-left: 10px;
+  text-align: center;
+
+}
+
+.contato_telefone_banco_sede{
+  font-size: 18px;
+  font-family: aller_lightregular;
+
+}
+
+  .contato_ocorrencia_sede{
+    width: 100px;
+    height: 60px;
+    font-size: 18px;
+    font-family: aller_lightregular;
+    color: #9c0404;
+    margin-left: 10px;
+    text-align: center;
+
+}
+
+.contato_ocorrencia_banco_sede{
+  font-size: 18px;
+  font-family: aller_lightregular;
+
+}
+
+
+
+.table_contatos_filial{
+  width: 330px;
+  height: 200px;
+  border: solid 1px #000;
+
+}
+
+
+.contato_nome_filial{
+  width: 100px;
+  font-size: 18px;
+  font-family: aller_lightregular;
+  color: #9c0404;
+  text-align: center;
+
+}
+
+.contato_nome_banco_filial{
+  font-size: 18px;
+  font-family: aller_lightregular;
+
+}
+
+.contato_email_filial{
+  width: 100px;
+  font-size: 18px;
+  font-family: aller_lightregular;
+  color: #9c0404;
+  margin-left: 10px;
+  text-align: center;
+
+}
+
+.contato_email_banco_filial{
+  font-size: 18px;
+  font-family: aller_lightregular;
+
+}
+
+.contato_telefone_filial{
+  width: 100px;
+  font-size: 18px;
+  font-family: aller_lightregular;
+  color: #9c0404;
+  margin-left: 10px;
+  text-align: center;
+
+}
+
+.contato_telefone_banco_filial{
+  font-size: 18px;
+  font-family: aller_lightregular;
+
+}
+
+  .contato_ocorrencia_filial{
+    width: 100px;
+    height: 60px;
+    font-size: 18px;
+    font-family: aller_lightregular;
+    color: #9c0404;
+    margin-left: 10px;
+    text-align: center;
+
+}
+
+.contato_ocorrencia_banco_filial{
+  font-size: 18px;
+  font-family: aller_lightregular;
+
+}
+
+.nenhuma_cadastrada{
+  font-size: 25px;
+  font-family: aller_lightregular;
+  padding-left: 30px;
+  padding-top: 30px;
+
+
+
+}

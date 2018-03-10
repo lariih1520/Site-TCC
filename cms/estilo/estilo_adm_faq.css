@@ -1,0 +1,227 @@
+.conteudo{
+  width: 85.9%;
+  height: 1000px;
+  margin-top: -30px;
+  float: left;
+  margin-left: 1px;
+}
+
+.campo_inputs{
+  width: 600px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  border: solid 3px #9c0404;
+
+}
+
+.titulo_nova_pergunta{
+  font-size: 25px;
+  font-family: aller_lightregular;
+  color: #9c0404;
+  padding-left: 40px;
+  padding-top: 15px;
+  float: left;
+
+
+}
+
+
+
+.pergunta{
+  width: 100%;
+  height: 100px;
+  float: left;
+  margin-top: -10px;
+
+}
+
+.login_senha{
+  color:#000;
+  padding: 10px 10px 5px 0px;
+  display: block;
+  outline: none;
+  border: none;
+  width: 450px;
+  margin-left: 40px;
+  margin-top: 30px;
+  border-bottom: 1px solid #9c0404;
+  font-size: 18px;
+  font-family: aller_lightregular;
+  float: left;
+}
+
+/* Animação */
+.bar {
+  position: relative;
+  display: block;
+  width: 76.8%;
+  margin-left: 40px;
+  margin-top: 66px;
+}
+
+.bar:before, .bar:after {
+  content: "";
+  height: 2px;
+  width: 0;
+  bottom: -1px;
+  position: absolute;
+  background: #9c0404;
+  transition: 0.2s ease all;
+}
+
+.bar:before { left: 50%; }
+.bar:after { right: 50%; }
+
+/* Validação de acordo com o texto digitado */
+.login_senha:valid { border-bottom: 1px solid #9c0404; }
+
+.login_senha:valid ~ .bar:before,
+.login_senha:valid ~ .bar:after {
+  background: #9c0404 !important;
+}
+
+.login_senha:focus,
+.login_senha.used{
+  top: -20px;
+  font-size: 16px;
+  color: #9c0404;
+}
+
+.login_senha:valid,
+.login_senha:valid.used{
+  color: #000;
+}
+
+.login_senha:focus ~ .bar:before,
+.login_senha:focus ~ .bar:after {
+  width: 50%;
+}
+
+.resposta{
+  width: 100%;
+  height: 250px;
+  float: left;
+
+}
+
+.caixa_resposta{
+  width: 450px;
+  height: 200px;
+  resize: none;
+  margin-left: 40px;
+  font-size: 20px;
+
+}
+
+.botao{
+  width: 100%;
+  height: 100px;
+
+}
+
+.btn_salvar_pergunta{
+  width: 200px;
+  height: 70px;
+  margin-left: 200px;
+  border: 3px solid #9c0404;
+  outline: none;
+  color: #9c0404;
+  background-color: white;
+  float: left;
+  font-size: 18px;
+  font-family: aller_lightregular;
+
+}
+
+.btn_salvar_pergunta:hover{
+  background-color: #9c0404;
+  color: #fff;
+  transition: 0.2s;
+
+}
+
+.perguntas_cadastradas{
+  width: 100%;
+  height: 400px;
+  margin-top: 30px;
+  overflow: auto;
+
+}
+
+.titulo_perguntas_cadastradas{
+  font-size: 25px;
+  font-family: aller_lightregular;
+  color: #9c0404;
+  padding-left: 40px;
+  padding-top: 15px;
+
+}
+
+.campo_perguntas_cadastradas{
+  width:400px;
+  height: 300px;
+  border: solid 3px #9c0404;
+  float: left;
+  margin-left: 50px;
+  margin-top: 30px;
+
+}
+
+.delete_pergunta img{
+  width: 40px;
+  height: 40px;
+  margin-left: 360px;
+
+}
+
+.pergunta_banco{
+  font-size: 25px;
+  font-family: aller_lightregular;
+  color: #9c0404;
+  padding-left: 20px;
+  padding-top: 15px;
+
+}
+
+.pergunta_vem_do_banco{
+  font-size: 25px;
+  font-family: aller_lightregular;
+  padding-left: 10px;
+  padding-top: 15px;
+
+}
+
+.resposta_banco{
+  font-size: 25px;
+  font-family: aller_lightregular;
+  color: #9c0404;
+  padding-left: 20px;
+  padding-top: 15px;
+
+}
+
+.resposta_vem_do_banco{
+  font-size: 25px;
+  font-family: aller_lightregular;
+  padding-left: 10px;
+  padding-top: 15px;
+
+
+}
+
+.nenhuma_cadastrada{
+  font-size: 25px;
+  font-family: aller_lightregular;
+  padding-left: 30px;
+  padding-top: 30px;
+
+}
+
+
+.perguntaID{
+  color: #000;
+
+
+}

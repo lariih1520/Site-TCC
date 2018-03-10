@@ -1,0 +1,670 @@
+@font-face {
+    font-family: 'allerbold';
+    src: url('../fonts/Aller/aller_bd-webfont.woff2') format('woff2'),
+         url('../fonts/Aller/aller_bd-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'allerbold_italic';
+    src: url('../fonts/Aller/aller_bdit-webfont.woff2') format('woff2'),
+         url('../fonts/Aller/aller_bdit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'alleritalic';
+    src: url('../fonts/Aller/aller_it-webfont.woff2') format('woff2'),
+         url('../fonts/Aller/aller_it-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aller_lightregular';
+    src: url('../fonts/Aller/aller_lt-webfont.woff2') format('woff2'),
+         url('../fonts/Aller/aller_lt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aller_lightitalic';
+    src: url('../fonts/Aller/aller_ltit-webfont.woff2') format('woff2'),
+         url('../fonts/Aller/aller_ltit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'allerregular';
+    src: url('../fonts/Aller/aller_rg-webfont.woff2') format('woff2'),
+         url('../fonts/Aller/aller_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aller_displayregular';
+    src: url('../fonts/Aller/allerdisplay-webfont.woff2') format('woff2'),
+         url('../fonts/Aller/allerdisplay-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+section{
+  height: 850px;
+
+}
+
+.conteudo_adm_filiais{
+  width: 83%;
+  height: 860px;
+  float: left;
+
+}
+
+.cadastro_nova_filial{
+  width: 1300px;
+  height: 300px;
+  margin-left: 200px;
+  float: left;
+
+
+}
+
+.formulario_filiais{
+  width: 800px;
+  height: 300px;
+  float: left;
+  margin-left: 350px;
+  margin-top: -300px;
+}
+
+
+.imagem_banco{
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin-left: 48px;
+}
+
+.imagem_banco img{
+  width: 300px;
+  height: 300px;
+  float: left;
+}
+
+
+.nome{
+  position: relative;
+  margin-bottom: 2.4em;
+  margin-left: 20px;
+  margin-top: 40px;
+  float: left;
+}
+
+.tipo_filial{
+  position: relative;
+  margin-bottom: 2.4em;
+  margin-left: 390px;
+  margin-top: -30px;
+  float: left;
+
+
+}
+
+
+.cnpj{
+  position: relative;
+  margin-bottom: 2.4em;
+  margin-left: 20px;
+  margin-top: 40px;
+  float: left;
+}
+
+.CEP{
+  position: relative;
+  margin-bottom: 2.4em;
+  margin-left: 20px;
+  margin-top: 40px;
+  float: left;
+
+}
+
+.telefone{
+  position: relative;
+  margin-bottom: 2.4em;
+  margin-left: 20px;
+  margin-top: 40px;
+  float: left;
+
+}
+
+.numero{
+  position: relative;
+  margin-bottom: 2.4em;
+  margin-left: 20px;
+  margin-top: 40px;
+  float: left;
+
+}
+
+.login_senha{
+  color:#000;
+  padding: 10px 10px 5px 0px;
+  display: block;
+  outline: none;
+  border: none;
+  width: 600px;
+  border-bottom: 1px solid #9c0404;
+  margin-left: 50px;
+  font-size: 18px;
+  font-family: aller_lightregular;
+}
+
+
+
+label{
+  color: #000;
+  font-size: 20px;
+  font-weight: normal;
+  font-family: aller_lightregular;
+  position: absolute;
+  pointer-events: none;
+  top: 10px;
+  transition: 0.2s ease all;
+  margin-left: 52px;
+  margin-top: -2px;
+}
+
+/* Animação */
+.bar_nome {
+  position: relative;
+  display: block;
+  margin-left: 50px;
+  width: 92.5%;
+}
+
+.bar_nome:before, .bar_nome:after {
+  content: "";
+  height: 2px;
+  width: 0;
+  bottom: -1px;
+  position: absolute;
+  background: #9c0404;
+  transition: 0.2s ease all;
+}
+
+.bar_nome:before { left: 50%; }
+.bar_nome:after { right: 50%; }
+
+/* Validação de acordo com o texto digitado */
+.login_senha:valid { border-bottom: 1px solid #9c0404; }
+
+.login_senha:valid ~ .bar_nome:before,
+.login_senha:valid ~ .bar_nome:after {
+  background: #9c0404 !important;
+}
+
+.login_senha:focus ~ label,
+.login_senha.used ~ label {
+  top: -20px;
+  font-size: 16px;
+  color: #9c0404;
+}
+
+.login_senha:valid ~ label,
+.login_senha:valid.used ~ label {
+  color: #9c0404;
+}
+
+.login_senha:focus ~ .bar_nome:before,
+.login_senha:focus ~ .bar_nome:after {
+  width: 50%;
+}
+
+.login_senha4{
+  color:#000;
+  padding: 10px 10px 5px 0px;
+  display: block;
+  outline: none;
+  border: none;
+  width: 300px;
+  border-bottom: 1px solid #9c0404;
+  margin-left: 50px;
+  margin-top: -50px;
+  font-size: 18px;
+  font-family: aller_lightregular;
+}
+
+/* Animação */
+.bar_cnpj {
+  position: relative;
+  display: block;
+  width: 86%;
+  margin-left: 50px;
+}
+
+.bar_cnpj:before, .bar_cnpj:after {
+  content: "";
+  height: 2px;
+  width: 0;
+  bottom: -1px;
+  position: absolute;
+  background: #9c0404;
+  transition: 0.2s ease all;
+}
+
+.bar_cnpj:before { left: 50%; }
+.bar_cnpj:after { right: 50%; }
+
+/* Validação de acordo com o texto digitado */
+.login_senha4:valid { border-bottom: 1px solid #9c0404; }
+
+.login_senha4:valid ~ .bar_cnpj:before,
+.login_senha4:valid ~ .bar_cnpj:after {
+  background: #9c0404 !important;
+}
+
+.login_senha4:focus,
+.login_senha4.used{
+  top: -20px;
+  font-size: 16px;
+  color: #9c0404;
+}
+
+.login_senha4:valid,
+.login_senha4:valid.used{
+  color: #000;
+}
+
+.login_senha4:focus ~ .bar_cnpj:before,
+.login_senha4:focus ~ .bar_cnpj:after {
+  width: 50%;
+}
+
+
+.login_senha2{
+  color:#000;
+  padding: 10px 10px 5px 0px;
+  display: block;
+  outline: none;
+  border: none;
+  width: 290px;
+  border-bottom: 1px solid #9c0404;
+  margin-left: -10px;
+  margin-top: -50px;
+  font-size: 18px;
+  font-family: aller_lightregular;
+  float: left;
+}
+
+.titulo_cep{
+  color: #000;
+  font-size: 20px;
+  font-weight: normal;
+  font-family: aller_lightregular;
+  position: absolute;
+  pointer-events: none;
+  top: 10px;
+  transition: 0.2s ease all;
+  margin-left: 52px;
+  margin-top: -40px;
+}
+
+/* Animação */
+.bar_cep {
+  position: relative;
+  display: block;
+  margin-top: -12.5px;
+  margin-left: -10px;
+  width: 105%;
+}
+
+.bar_cep:before, .bar_cep:after {
+  content: "";
+  height: 2px;
+  width: 0;
+  bottom: -1px;
+  position: absolute;
+  background: #9c0404;
+  transition: 0.2s ease all;
+}
+
+.bar_cep:before { left: 50%; }
+.bar_cep:after { right: 50%; }
+
+/* Validação de acordo com o texto digitado */
+.login_senha2:valid { border-bottom: 1px solid #9c0404; }
+
+.login_senha2:valid ~ .bar_cep:before,
+.login_senha2:valid ~ .bar_cep:after {
+  background: #9c0404 !important;
+}
+
+.login_senha2:focus ~ .titulo_cep,
+.login_senha2.used ~ .titulo_cep {
+  top: -20px;
+  font-size: 16px;
+  color: #9c0404;
+}
+
+.login_senha2:valid ~ .titulo_cep,
+.login_senha2:valid.used ~ .titulo_cep {
+  color: #9c0404;
+}
+
+.login_senha2:focus ~ .bar_cep:before,
+.login_senha2:focus ~ .bar_cep:after {
+  width: 50%;
+}
+
+
+.login_senha3{
+  color:#000;
+  padding: 10px 10px 5px 0px;
+  display: block;
+  outline: none;
+  border: none;
+  width: 160px;
+  border-bottom: 1px solid #9c0404;
+  margin-left: 47px;
+  margin-top: -70px;
+  font-size: 18px;
+  font-family: aller_lightregular;
+}
+
+.titulo_numero{
+  color: #000;
+  font-size: 20px;
+  font-weight: normal;
+  font-family: aller_lightregular;
+  position: absolute;
+  pointer-events: none;
+  top: 10px;
+  transition: 0.2s ease all;
+  margin-left: 22px;
+  margin-top: -40px;
+}
+
+/* Animação */
+.bar_numero {
+  position: relative;
+  display: block;
+  margin-left: 46.5px;
+  width: 77.5%;
+}
+
+.bar_numero:before, .bar_numero:after {
+  content: "";
+  height: 2px;
+  width: 0;
+  bottom: -1px;
+  position: absolute;
+  background: #9c0404;
+  transition: 0.2s ease all;
+}
+
+.bar_numero:before { left: 50%; }
+.bar_numero:after { right: 50%; }
+
+/* Validação de acordo com o texto digitado */
+.login_senha3:valid { border-bottom: 1px solid #9c0404; }
+
+.login_senha3:valid ~ .bar_numero:before,
+.login_senha3:valid ~ .bar_numero:after {
+  background: #9c0404 !important;
+}
+
+.login_senha3:focus ~ .titulo_numero,
+.login_senha3.used ~ .titulo_numero {
+  top: -20px;
+  font-size: 16px;
+  color: #9c0404;
+}
+
+.login_senha3:valid ~ .titulo_numero,
+.login_senha3:valid.used ~ .titulo_numero {
+  color: #9c0404;
+}
+
+.login_senha3:focus ~ .bar_numero:before,
+.login_senha3:focus ~ .bar_numero:after {
+  width: 50%;
+}
+
+.login_senha5{
+  color:#000;
+  padding: 10px 10px 5px 0px;
+  display: block;
+  outline: none;
+  border: none;
+  width: 400px;
+  border-bottom: 1px solid #9c0404;
+  margin-left: 20px;
+  margin-top: -70px;
+  font-size: 18px;
+  font-family: aller_lightregular;
+}
+
+.titulo_numero{
+  color: #000;
+  font-size: 20px;
+  font-weight: normal;
+  font-family: aller_lightregular;
+  position: absolute;
+  pointer-events: none;
+  top: 10px;
+  transition: 0.2s ease all;
+  margin-left: 22px;
+  margin-top: -40px;
+}
+
+/* Animação */
+.bar_telefone {
+  position: relative;
+  display: block;
+  margin-left: 20px;
+  width: 95.2%;
+}
+
+.bar_telefone:before, .bar_telefone:after {
+  content: "";
+  height: 2px;
+  width: 0;
+  bottom: -1px;
+  position: absolute;
+  background: #9c0404;
+  transition: 0.2s ease all;
+}
+
+.bar_telefone:before { left: 50%; }
+.bar_telefone:after { right: 50%; }
+
+/* Validação de acordo com o texto digitado */
+.login_senha5:valid { border-bottom: 1px solid #9c0404; }
+
+.login_senha5:valid ~ .bar_telefone:before,
+.login_senha5:valid ~ .bar_telefone:after {
+  background: #9c0404 !important;
+}
+
+.login_senha5:focus ~ .titulo_numero,
+.login_senha5.used ~ .titulo_numero {
+  top: -20px;
+  font-size: 16px;
+  color: #9c0404;
+}
+
+.login_senha5:valid ~ .titulo_numero,
+.login_senha5:valid.used ~ .titulo_numero {
+  color: #9c0404;
+}
+
+.login_senha5:focus ~ .bar_telefone:before,
+.login_senha5:focus ~ .bar_telefone:after {
+  width: 50%;
+}
+
+
+.imagem{
+  width: 300px;
+  float: left;
+  margin-left: 68px;
+  margin-top: -30px;
+
+}
+
+
+
+.entrar{
+  width: 100%;
+  height: 80px;
+  float: left;
+
+}
+
+.btn_entrar{
+  width: 100px;
+  height: 40px;
+  margin-left: 460px;
+  margin-top: 20px;
+  border: 3px solid #9c0404;
+  outline: none;
+  color: #9c0404;
+  background-color: white;
+  font-size: 18px;
+  font-family: aller_lightregular;
+
+}
+
+.btn_entrar:hover{
+  color: white;
+  background-color: #9c0404;
+  transition: 0.2s ease all;
+
+}
+
+.btn_excluir{
+  width: 100px;
+  height: 40px;
+  margin-left:  10px;
+  border: 3px solid #9c0404;
+  outline: none;
+  color: #9c0404;
+  background-color: white;
+  font-size: 18px;
+  font-family: aller_lightregular;
+
+}
+
+.btn_excluir:hover{
+  color: white;
+  background-color: #9c0404;
+  transition: 0.2s ease all;
+
+}
+.filiais_cadastradas{
+  width: 100%;
+  height: 250px;
+  float: left;
+  margin-top: 100px;
+
+}
+
+.titulo_filiais_cadastradas{
+  font-size: 30px;
+  color: #cc2900;
+  font-family: aller_lightregular;
+  padding-left: 50px;
+  padding-top: 20px;
+
+}
+
+.campo_filiais_cadastradas{
+  width: 300px;
+  height: 180px;
+  float: left;
+  margin-left: 25px;
+  margin-top: 5px;
+
+}
+
+.table_filiais_cadastradas{
+  width: 330px;
+  height: 180px;
+  border: solid 1px #000;
+  margin-left: 60px;
+
+}
+
+.table_filiais_cadastradas2{
+  width: 330px;
+  height: 180px;
+  border: solid 1px #000;
+  margin-left: 70px;
+
+}
+
+.table_filiais_cadastradas3{
+  width: 330px;
+  height: 180px;
+  border: solid 1px #000;
+  margin-left: 80px;
+
+}
+
+.filiais_cadastrada1{
+  width: 100px;
+  font-size: 18px;
+  font-family: aller_lightregular;
+  color: #9c0404;
+  text-align: center;
+
+}
+
+.filiais_cadastrada1_banco{
+  font-size: 18px;
+  font-family: aller_lightregular;
+
+}
+
+.filiais_cadastrada2{
+  width: 100px;
+  font-size: 18px;
+  font-family: aller_lightregular;
+  color: #9c0404;
+  text-align: center;
+
+}
+
+.filiais_cadastrada2_banco{
+  font-size: 18px;
+  font-family: aller_lightregular;
+
+}
+
+.filiais_cadastrada3{
+  width: 100px;
+  font-size: 18px;
+  font-family: aller_lightregular;
+  color: #9c0404;
+  text-align: center;
+
+}
+
+.filiais_cadastrada3_banco{
+  font-size: 18px;
+  font-family: aller_lightregular;
+
+}

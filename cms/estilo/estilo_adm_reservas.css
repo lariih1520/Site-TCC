@@ -1,0 +1,89 @@
+/*CSS*/
+#contato{
+  width: 1200px;
+  height: 200px;
+  margin: auto;
+  font-family:  aller_lightregular;
+}
+.info{
+  width: 590px;
+  height: 100%;
+  float: left;
+  margin-left: 5px;
+  text-align: center;
+}
+.info p{
+  font-size: 30px;
+  color: #9c0404;
+}
+.cont{
+  width: 100%;
+  height: 25px;
+  margin-top: 3px;
+  font-size: 20px;
+}
+#validacao{
+  width: 500px;
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#validacao input{
+  width: 150px;
+  height: 50px;
+  margin-left: 70px;
+  border: 3px solid #9c0404;
+  outline: none;
+  color: #9c0404;
+  background-color: white;
+  font-size: 18px;
+  font-family: aller_lightregular;
+}
+#validacao input:hover{
+  color: white;
+  background-color: #9c0404;
+  transition: 0.2s ease all;
+}
+
+/*## LISTA DE RESERVAS ##*/
+#todas_reservas{
+  width:100%;
+  height:380px;
+  font-family:  aller_lightregular;
+}
+.lista_reservas{
+  width:90%;
+  height:300px;
+  margin: auto;
+  overflow-y:scroll;
+  border-top:solid 1px black;
+  margin-top: 15px;
+}
+.lista_reservas p{
+  font-size: 30px;
+  color: #9c0404;
+}
+.lista_reservas table{
+    width:100%;
+}
+.lista_reservas table thead{
+    color:white;
+    width:1460px;
+    background-color: #A0A0A0;
+}
+.lista_reservas table tr td{
+    height:50px;
+    font-size: 25px;
+    text-align: center;
+}
+.no_pendende{
+  width: 100%;
+  margin-top: 70px;
+  height: auto;
+  font-size: 25px;
+  color: #9c0404;
+  text-align: center;
+  text-decoration: bold;
+}

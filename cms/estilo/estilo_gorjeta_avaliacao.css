@@ -1,0 +1,127 @@
+/* Estilo página de avaliação e gorjetas
+   Feito por: Larissa
+   Data:05/10/17
+   ultima edição: 14/10
+*/
+
+
+#conteudo{
+    width: auto;
+    float: left;
+    height: 850px;
+    margin-left: 270px;
+    margin-top: 50px;
+}
+
+#filtro{
+    width: 800px;
+    height:180px;
+    padding-left: 50px;
+    margin-left: 150px;
+    float: left;
+    background-color: #e6e6e6;
+}
+
+#filtro ul{
+    width: 800px;
+    height:50px;
+    list-style: none;
+    padding-top: 25px;
+    padding-left: 20px;
+}
+#filtro ul li{
+    float:left;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 22px;
+    margin-right: 15px;
+}
+.titulo_filtro{
+    padding-top: 10px;
+    font-size: 25px;
+    padding-left: 70px;
+    margin-left: 80px;
+}
+.titulo_filtro select{
+    width:auto;
+    height:30px;
+    font-size: 22px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.filtro_slc{
+    width:700px;
+    height:70px;
+    float: left;
+    clear: both;
+    padding-left: 20px;
+}
+.filtro_slc div{
+    float: left;
+    font-size: 25px;
+    margin-right: 10px;
+}
+.filtro_slc input{
+    float: right;
+    width:100px;
+    margin-top: 25px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.filtro_slc a{
+    float: right;
+    width:100px;
+    margin-top: 25px;
+    font-size: 20px;
+    margin-right: 60px;
+}
+.filtro_slc select{
+    font-size: 18px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 5px;
+}
+
+/* Divisão da pagina */
+.content-dados{
+    width: 87%;
+    height:650px;
+    float: left;
+    clear: both;
+}
+.cinza{
+    background-color: #CBCBCB;
+}
+.content_tbl{
+    width:1280px;
+    height: 600px;
+    overflow-y:scroll;
+    overflow-x: hidden;
+    margin-top: 10px;
+    margin-left: 150px;
+    background-color: #e6e6e6;
+    float: left;
+}
+.content_tbl table{
+    min-width:500px;
+    float: left;
+    max-height: 600px;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+.content_tbl table tbody tr td{
+    min-width: 250px;
+    padding-left:5px;
+    padding-right:5px;
+}
+.content_tbl table thead{
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    background-color: #9c0404;
+}
+.content_tbl table tbody{
+    font-size: 25px;
+    text-align: center;
+    border: solid 1px black;
+}

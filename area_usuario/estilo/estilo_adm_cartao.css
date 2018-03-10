@@ -1,0 +1,1215 @@
+@media screen and (min-device-width: 1502px) and (max-device-width: 2000px){
+    .conteudo{
+      width: 97.1%;
+      height: 950px;
+      margin-left: 50px;
+
+    }
+
+    .lugar_cartao{
+      width: 500px;
+      height: 250px;
+      margin-left: 350px;
+      margin-top: 100px;
+      float: left;
+      border-radius: 30px;
+      border: solid 3px #9c0404;
+    }
+
+    .nome{
+      position: relative;
+      margin-bottom: 2.4em;
+      margin-left: 20px;
+      margin-top: 40px;
+      float: left;
+    }
+
+    .login_senha{
+      color:#000;
+      padding: 10px 10px 5px 0px;
+      display: block;
+      outline: none;
+      border: none;
+      width: 450px;
+      border-bottom: 1px solid #9c0404;
+      font-size: 18px;
+      font-family: aller_lightregular;
+    }
+
+    /* Animação */
+    .bar_nome {
+      position: relative;
+      display: block;
+      width: 100%;
+    }
+
+    .bar_nome:before, .bar_nome:after {
+      content: "";
+      height: 2px;
+      width: 0;
+      bottom: -1px;
+      position: absolute;
+      background: #9c0404;
+      transition: 0.2s ease all;
+    }
+
+    .bar_nome:before { left: 50%; }
+    .bar_nome:after { right: 50%; }
+
+    /* Validação de acordo com o texto digitado */
+    .login_senha:valid { border-bottom: 1px solid #9c0404; }
+
+    .login_senha:valid ~ .bar_nome:before,
+    .login_senha:valid ~ .bar_nome:after {
+      background: #9c0404 !important;
+    }
+
+    .login_senha:focus,
+    .login_senha.used{
+      top: -20px;
+      font-size: 16px;
+      color: #000;
+    }
+
+    .login_senha:valid,
+    .login_senha:valid.used{
+      color: #000;
+    }
+
+    .login_senha:focus ~ .bar_nome:before,
+    .login_senha:focus ~ .bar_nome:after {
+      width: 50%;
+    }
+
+    .codigo{
+      position: relative;
+      margin-bottom: 2.4em;
+      margin-left: 20px;
+      float: left;
+      margin-top: -20px;
+    }
+
+    .login_senha2{
+      color:#000;
+      padding: 10px 10px 5px 0px;
+      display: block;
+      outline: none;
+      border: none;
+      width: 125px;
+      border-bottom: 1px solid #9c0404;
+      font-size: 18px;
+      font-family: aller_lightregular;
+    }
+
+    /* Animação */
+    .bar_codigo {
+      position: relative;
+      display: block;
+      width: 100%;
+    }
+
+    .bar_codigo:before, .bar_codigo:after {
+      content: "";
+      height: 2px;
+      width: 0;
+      bottom: -1px;
+      position: absolute;
+      background: #9c0404;
+      transition: 0.2s ease all;
+    }
+
+    .bar_codigo:before { left: 50%; }
+    .bar_codigo:after { right: 50%; }
+
+    /* Validação de acordo com o texto digitado */
+    .login_senha2:valid { border-bottom: 1px solid #9c0404; }
+
+    .login_senha2:valid ~ .bar_codigo:before,
+    .login_senha2:valid ~ .bar_codigo:after {
+      background: #9c0404 !important;
+    }
+
+    .login_senha2:focus,
+    .login_senha2.used{
+      top: -20px;
+      font-size: 16px;
+      color: #000;
+    }
+
+    .login_senha2:valid,
+    .login_senha2:valid.used{
+      color: #000;
+    }
+
+    .login_senha2:focus ~ .bar_codigo:before,
+    .login_senha2:focus ~ .bar_codigo:after {
+      width: 50%;
+    }
+
+    .numero{
+      position: relative;
+      margin-bottom: 2.4em;
+      margin-left: 20px;
+      margin-top: -20px;
+      float: left;
+    }
+
+    .login_senha3{
+      color:#000;
+      padding: 10px 10px 5px 0px;
+      display: block;
+      outline: none;
+      border: none;
+      width: 295px;
+      border-bottom: 1px solid #9c0404;
+      font-size: 18px;
+      font-family: aller_lightregular;
+    }
+
+    /* Animação */
+    .bar_numero {
+      position: relative;
+      display: block;
+      width: 100%;
+    }
+
+    .bar_numero:before, .bar_numero:after {
+      content: "";
+      height: 2px;
+      width: 0;
+      bottom: -1px;
+      position: absolute;
+      background: #9c0404;
+      transition: 0.2s ease all;
+    }
+
+    .bar_numero:before { left: 50%; }
+    .bar_numero:after { right: 50%; }
+
+    /* Validação de acordo com o texto digitado */
+    .login_senha3:valid { border-bottom: 1px solid #9c0404; }
+
+    .login_senha3:valid ~ .bar_numero:before,
+    .login_senha3:valid ~ .bar_numero:after {
+      background: #9c0404 !important;
+    }
+
+    .login_senha3:focus,
+    .login_senha3.used{
+      top: -20px;
+      font-size: 16px;
+      color: #000;
+    }
+
+    .login_senha3:valid,
+    .login_senha3:valid.used{
+      color: #000;
+    }
+
+    .login_senha3:focus ~ .bar_numero:before,
+    .login_senha3:focus ~ .bar_numero:after {
+      width: 50%;
+    }
+
+
+    .data{
+      position: relative;
+      margin-bottom: 2.4em;
+      margin-left: 20px;
+      margin-top: -20px;
+      float: left;
+    }
+
+    .login_senha4{
+      color:#000;
+      padding: 10px 10px 5px 0px;
+      display: block;
+      outline: none;
+      border: none;
+      width: 170px;
+      border-bottom: 1px solid #9c0404;
+      font-size: 18px;
+      font-family: aller_lightregular;
+    }
+
+    /* Animação */
+    .bar_data {
+      position: relative;
+      display: block;
+      width: 100%;
+    }
+
+    .bar_data:before, .bar_data:after {
+      content: "";
+      height: 2px;
+      width: 0;
+      bottom: -1px;
+      position: absolute;
+      background: #9c0404;
+      transition: 0.2s ease all;
+    }
+
+    .bar_data:before { left: 50%; }
+    .bar_data:after { right: 50%; }
+
+    /* Validação de acordo com o texto digitado */
+    .login_senha4:valid { border-bottom: 1px solid #9c0404; }
+
+    .login_senha4:valid ~ .bar_data:before,
+    .login_senha4:valid ~ .bar_data:after {
+      background: #9c0404 !important;
+    }
+
+    .login_senha4:focus,
+    .login_senha4.used{
+      top: -20px;
+      font-size: 16px;
+      color: #000;
+    }
+
+    .login_senha4:valid,
+    .login_senha4:valid.used{
+      color: #000;
+    }
+
+    .login_senha3:focus ~ .bar_data:before,
+    .login_senha3:focus ~ .bar_data:after {
+      width: 50%;
+    }
+
+    .lugar_botao{
+      width: 300px;
+      height: 250px;
+      float: left;
+      margin-left: 30px;
+      margin-top: 100px;
+
+    }
+
+    .btn_cadastrar{
+      width: 160px;
+      height: 50px;
+      margin-top: 200px;
+      border: 3px solid #9c0404;
+      outline: none;
+      color: #9c0404;
+      background-color: white;
+      font-size: 18px;
+      font-family: aller_lightregular;
+
+    }
+
+    .btn_cadastrar:hover{
+      color: white;
+      background-color: #9c0404;
+      transition: 0.2s ease all;
+
+    }
+
+    .cartoes_cadastrados{
+      width: 100%;
+      height: 350px;
+      overflow: auto;
+      float: left;
+      margin-top: 246px;
+
+    }
+
+    .titulo_cartoes_cadstrados{
+      font-size: 25px;
+      margin-left: 25px;
+      padding-top: 25px;
+      font-family: aller_lightregular;
+      color: #9c0404;
+
+    }
+
+    .cartoes_banco{
+      width: 325px;
+      height: 150px;
+      border: solid 3px #9c0404;
+      float: left;
+      margin-left: 100px;
+      margin-top: 50px;
+    }
+    .cartoes_banco img{
+      width: 125px;
+      height: 125px;
+      margin-top: 10px;
+      float: left;
+
+    }
+    .cartao{
+      width: 125px;
+      height: 125px;
+      margin-top: 10px;
+      float:left;
+
+    }
+    .cartao img{
+      width: 125px;
+      height: 125px;
+      margin-top: 3px;
+      float: left;
+
+    }
+
+    .labels{
+      width: 200px;
+      height: 150px;
+      float: left;
+
+
+    }
+
+    .nome_cartao{
+      font-size: 18px;
+      padding-top: 25px;
+      font-family: aller_lightregular;
+      color: #9c0404;
+      float: left;
+
+    }
+
+    .nome_vem_do_banco{
+      font-size: 18px;
+      margin-left: 2px;
+      padding-top: 25px;
+      font-family: aller_lightregular;
+      color: #000;
+      float: left;
+
+    }
+
+    .numero_cartao{
+      font-size: 18px;
+      padding-top: 15px;
+      font-family: aller_lightregular;
+      color: #9c0404;
+      float: left;
+      clear: both;
+    }
+
+    .numero_vem_do_banco{
+      font-size: 18px;
+      margin-left: 2px;
+      padding-top: 15px;
+      font-family: aller_lightregular;
+      color: #000;
+      float: left;
+
+    }
+
+    .delete-rede img{
+      width: 25px;
+      height: 25px;
+      margin-left: 173px;
+      margin-top: -1px;
+
+    }
+}
+
+@media screen and (min-device-width: 1032px) and (max-device-width: 1500px){
+    .conteudo{
+      width: 97.1%;
+      height: 950px;
+      margin-left: 50px;
+
+    }
+
+    .lugar_cartao{
+      width: 500px;
+      height: 250px;
+      margin-left: 350px;
+      margin-top: 100px;
+      float: left;
+      border-radius: 30px;
+      border: solid 3px #9c0404;
+    }
+
+    .nome{
+      position: relative;
+      margin-bottom: 2.4em;
+      margin-left: 20px;
+      margin-top: 40px;
+      float: left;
+    }
+
+    .login_senha{
+      color:#000;
+      padding: 10px 10px 5px 0px;
+      display: block;
+      outline: none;
+      border: none;
+      width: 450px;
+      border-bottom: 1px solid #9c0404;
+      font-size: 18px;
+      font-family: aller_lightregular;
+    }
+
+    /* Animação */
+    .bar_nome {
+      position: relative;
+      display: block;
+      width: 100%;
+    }
+
+    .bar_nome:before, .bar_nome:after {
+      content: "";
+      height: 2px;
+      width: 0;
+      bottom: -1px;
+      position: absolute;
+      background: #9c0404;
+      transition: 0.2s ease all;
+    }
+
+    .bar_nome:before { left: 50%; }
+    .bar_nome:after { right: 50%; }
+
+    /* Validação de acordo com o texto digitado */
+    .login_senha:valid { border-bottom: 1px solid #9c0404; }
+
+    .login_senha:valid ~ .bar_nome:before,
+    .login_senha:valid ~ .bar_nome:after {
+      background: #9c0404 !important;
+    }
+
+    .login_senha:focus,
+    .login_senha.used{
+      top: -20px;
+      font-size: 16px;
+      color: #000;
+    }
+
+    .login_senha:valid,
+    .login_senha:valid.used{
+      color: #000;
+    }
+
+    .login_senha:focus ~ .bar_nome:before,
+    .login_senha:focus ~ .bar_nome:after {
+      width: 50%;
+    }
+
+    .codigo{
+      position: relative;
+      margin-bottom: 2.4em;
+      margin-left: 20px;
+      float: left;
+      margin-top: -20px;
+    }
+
+    .login_senha2{
+      color:#000;
+      padding: 10px 10px 5px 0px;
+      display: block;
+      outline: none;
+      border: none;
+      width: 125px;
+      border-bottom: 1px solid #9c0404;
+      font-size: 18px;
+      font-family: aller_lightregular;
+    }
+
+    /* Animação */
+    .bar_codigo {
+      position: relative;
+      display: block;
+      width: 100%;
+    }
+
+    .bar_codigo:before, .bar_codigo:after {
+      content: "";
+      height: 2px;
+      width: 0;
+      bottom: -1px;
+      position: absolute;
+      background: #9c0404;
+      transition: 0.2s ease all;
+    }
+
+    .bar_codigo:before { left: 50%; }
+    .bar_codigo:after { right: 50%; }
+
+    /* Validação de acordo com o texto digitado */
+    .login_senha2:valid { border-bottom: 1px solid #9c0404; }
+
+    .login_senha2:valid ~ .bar_codigo:before,
+    .login_senha2:valid ~ .bar_codigo:after {
+      background: #9c0404 !important;
+    }
+
+    .login_senha2:focus,
+    .login_senha2.used{
+      top: -20px;
+      font-size: 16px;
+      color: #000;
+    }
+
+    .login_senha2:valid,
+    .login_senha2:valid.used{
+      color: #000;
+    }
+
+    .login_senha2:focus ~ .bar_codigo:before,
+    .login_senha2:focus ~ .bar_codigo:after {
+      width: 50%;
+    }
+
+    .numero{
+      position: relative;
+      margin-bottom: 2.4em;
+      margin-left: 20px;
+      margin-top: -20px;
+      float: left;
+    }
+
+    .login_senha3{
+      color:#000;
+      padding: 10px 10px 5px 0px;
+      display: block;
+      outline: none;
+      border: none;
+      width: 295px;
+      border-bottom: 1px solid #9c0404;
+      font-size: 18px;
+      font-family: aller_lightregular;
+    }
+
+    /* Animação */
+    .bar_numero {
+      position: relative;
+      display: block;
+      width: 100%;
+    }
+
+    .bar_numero:before, .bar_numero:after {
+      content: "";
+      height: 2px;
+      width: 0;
+      bottom: -1px;
+      position: absolute;
+      background: #9c0404;
+      transition: 0.2s ease all;
+    }
+
+    .bar_numero:before { left: 50%; }
+    .bar_numero:after { right: 50%; }
+
+    /* Validação de acordo com o texto digitado */
+    .login_senha3:valid { border-bottom: 1px solid #9c0404; }
+
+    .login_senha3:valid ~ .bar_numero:before,
+    .login_senha3:valid ~ .bar_numero:after {
+      background: #9c0404 !important;
+    }
+
+    .login_senha3:focus,
+    .login_senha3.used{
+      top: -20px;
+      font-size: 16px;
+      color: #000;
+    }
+
+    .login_senha3:valid,
+    .login_senha3:valid.used{
+      color: #000;
+    }
+
+    .login_senha3:focus ~ .bar_numero:before,
+    .login_senha3:focus ~ .bar_numero:after {
+      width: 50%;
+    }
+
+
+    .data{
+      position: relative;
+      margin-bottom: 2.4em;
+      margin-left: 20px;
+      margin-top: -20px;
+      float: left;
+    }
+
+    .login_senha4{
+      color:#000;
+      padding: 10px 10px 5px 0px;
+      display: block;
+      outline: none;
+      border: none;
+      width: 170px;
+      border-bottom: 1px solid #9c0404;
+      font-size: 18px;
+      font-family: aller_lightregular;
+    }
+
+    /* Animação */
+    .bar_data {
+      position: relative;
+      display: block;
+      width: 100%;
+    }
+
+    .bar_data:before, .bar_data:after {
+      content: "";
+      height: 2px;
+      width: 0;
+      bottom: -1px;
+      position: absolute;
+      background: #9c0404;
+      transition: 0.2s ease all;
+    }
+
+    .bar_data:before { left: 50%; }
+    .bar_data:after { right: 50%; }
+
+    /* Validação de acordo com o texto digitado */
+    .login_senha4:valid { border-bottom: 1px solid #9c0404; }
+
+    .login_senha4:valid ~ .bar_data:before,
+    .login_senha4:valid ~ .bar_data:after {
+      background: #9c0404 !important;
+    }
+
+    .login_senha4:focus,
+    .login_senha4.used{
+      top: -20px;
+      font-size: 16px;
+      color: #000;
+    }
+
+    .login_senha4:valid,
+    .login_senha4:valid.used{
+      color: #000;
+    }
+
+    .login_senha3:focus ~ .bar_data:before,
+    .login_senha3:focus ~ .bar_data:after {
+      width: 50%;
+    }
+
+    .lugar_botao{
+      width: 300px;
+      height: 250px;
+      float: left;
+      margin-left: 30px;
+      margin-top: 100px;
+
+    }
+
+    .btn_cadastrar{
+      width: 160px;
+      height: 50px;
+      margin-top: 200px;
+      border: 3px solid #9c0404;
+      outline: none;
+      color: #9c0404;
+      background-color: white;
+      font-size: 18px;
+      font-family: aller_lightregular;
+
+    }
+
+    .btn_cadastrar:hover{
+      color: white;
+      background-color: #9c0404;
+      transition: 0.2s ease all;
+
+    }
+
+    .cartoes_cadastrados{
+      width: 100%;
+      height: 350px;
+      overflow: auto;
+      float: left;
+      margin-top: 246px;
+
+    }
+
+    .titulo_cartoes_cadstrados{
+      font-size: 25px;
+      margin-left: 25px;
+      padding-top: 25px;
+      font-family: aller_lightregular;
+      color: #9c0404;
+
+    }
+
+    .cartoes_banco{
+      width: 325px;
+      height: 150px;
+      border: solid 3px #9c0404;
+      float: left;
+      margin-left: 100px;
+      margin-top: 50px;
+    }
+    .cartoes_banco img{
+      width: 125px;
+      height: 125px;
+      margin-top: 10px;
+      float: left;
+
+    }
+    .cartao{
+      width: 125px;
+      height: 125px;
+      margin-top: 10px;
+      float:left;
+
+    }
+    .cartao img{
+      width: 125px;
+      height: 125px;
+      margin-top: 3px;
+      float: left;
+
+    }
+
+    .labels{
+      width: 200px;
+      height: 150px;
+      float: left;
+
+
+    }
+
+    .nome_cartao{
+      font-size: 18px;
+      padding-top: 25px;
+      font-family: aller_lightregular;
+      color: #9c0404;
+      float: left;
+
+    }
+
+    .nome_vem_do_banco{
+      font-size: 18px;
+      margin-left: 2px;
+      padding-top: 25px;
+      font-family: aller_lightregular;
+      color: #000;
+      float: left;
+
+    }
+
+    .numero_cartao{
+      font-size: 18px;
+      padding-top: 15px;
+      font-family: aller_lightregular;
+      color: #9c0404;
+      float: left;
+      clear: both;
+    }
+
+    .numero_vem_do_banco{
+      font-size: 18px;
+      margin-left: 2px;
+      padding-top: 15px;
+      font-family: aller_lightregular;
+      color: #000;
+      float: left;
+
+    }
+
+    .delete-rede img{
+      width: 25px;
+      height: 25px;
+      margin-left: 173px;
+      margin-top: -1px;
+
+    }
+}
+
+@media screen and (min-device-width:300px) and (max-device-width: 1030px){
+    
+    #conteudo{
+      height: 1300px;
+      border: solid 2px fuchsia; /******** Apagar **********/
+    }
+    .lugar_cartao{
+      width: 600px;
+      height: 250px;
+      margin: auto;
+      margin-top: 50px;
+      border-radius: 30px;
+      border: solid 3px #9c0404;
+    }
+
+    .nome{
+      position: relative;
+      margin-bottom: 2.4em;
+      margin-left: 20px;
+      margin-top: 40px;
+      float: left;
+    }
+
+    .login_senha{
+      color:#000;
+      padding: 10px 10px 5px 0px;
+      display: block;
+      outline: none;
+      border: none;
+      width: 450px;
+      border-bottom: 1px solid #9c0404;
+      font-size: 30px;
+      font-family: aller_lightregular;
+    }
+
+    /* Animação */
+    .bar_nome {
+      position: relative;
+      display: block;
+      width: 100%;
+    }
+
+    .bar_nome:before, .bar_nome:after {
+      content: "";
+      height: 2px;
+      width: 0;
+      bottom: -1px;
+      position: absolute;
+      background: #9c0404;
+      transition: 0.2s ease all;
+    }
+
+    .bar_nome:before { left: 50%; }
+    .bar_nome:after { right: 50%; }
+
+    /* Validação de acordo com o texto digitado */
+    .login_senha:valid { border-bottom: 1px solid #9c0404; }
+
+    .login_senha:valid ~ .bar_nome:before,
+    .login_senha:valid ~ .bar_nome:after {
+      background: #9c0404 !important;
+    }
+
+    .login_senha:focus,
+    .login_senha.used{
+      top: -20px;
+      font-size: 16px;
+      color: #000;
+    }
+
+    .login_senha:valid,
+    .login_senha:valid.used{
+      color: #000;
+    }
+
+    .login_senha:focus ~ .bar_nome:before,
+    .login_senha:focus ~ .bar_nome:after {
+      width: 50%;
+    }
+
+    .codigo{
+      position: relative;
+      margin-bottom: 2.4em;
+      margin-left: 20px;
+      float: left;
+      margin-top: -20px;
+    }
+
+    .login_senha2{
+      color:#000;
+      padding: 10px 10px 5px 0px;
+      display: block;
+      outline: none;
+      border: none;
+      width: 125px;
+      border-bottom: 1px solid #9c0404;
+      font-size: 30px;
+      font-family: aller_lightregular;
+    }
+
+    /* Animação */
+    .bar_codigo {
+      position: relative;
+      display: block;
+      width: 100%;
+    }
+
+    .bar_codigo:before, .bar_codigo:after {
+      content: "";
+      height: 2px;
+      width: 0;
+      bottom: -1px;
+      position: absolute;
+      background: #9c0404;
+      transition: 0.2s ease all;
+    }
+
+    .bar_codigo:before { left: 50%; }
+    .bar_codigo:after { right: 50%; }
+
+    /* Validação de acordo com o texto digitado */
+    .login_senha2:valid { border-bottom: 1px solid #9c0404; }
+
+    .login_senha2:valid ~ .bar_codigo:before,
+    .login_senha2:valid ~ .bar_codigo:after {
+      background: #9c0404 !important;
+    }
+
+    .login_senha2:focus,
+    .login_senha2.used{
+      top: -20px;
+      font-size: 16px;
+      color: #000;
+    }
+
+    .login_senha2:valid,
+    .login_senha2:valid.used{
+      color: #000;
+    }
+
+    .login_senha2:focus ~ .bar_codigo:before,
+    .login_senha2:focus ~ .bar_codigo:after {
+      width: 50%;
+    }
+
+    .numero{
+      position: relative;
+      margin-bottom: 2.4em;
+      margin-left: 20px;
+      margin-top: -20px;
+      float: left;
+    }
+
+    .login_senha3{
+      color:#000;
+      padding: 10px 10px 5px 0px;
+      display: block;
+      outline: none;
+      border: none;
+      width: 295px;
+      border-bottom: 1px solid #9c0404;
+      font-size: 30px;
+      font-family: aller_lightregular;
+    }
+
+    /* Animação */
+    .bar_numero {
+      position: relative;
+      display: block;
+      width: 100%;
+    }
+
+    .bar_numero:before, .bar_numero:after {
+      content: "";
+      height: 2px;
+      width: 0;
+      bottom: -1px;
+      position: absolute;
+      background: #9c0404;
+      transition: 0.2s ease all;
+    }
+
+    .bar_numero:before { left: 50%; }
+    .bar_numero:after { right: 50%; }
+
+    /* Validação de acordo com o texto digitado */
+    .login_senha3:valid { border-bottom: 1px solid #9c0404; }
+
+    .login_senha3:valid ~ .bar_numero:before,
+    .login_senha3:valid ~ .bar_numero:after {
+      background: #9c0404 !important;
+    }
+
+    .login_senha3:focus,
+    .login_senha3.used{
+      top: -20px;
+      font-size: 16px;
+      color: #000;
+    }
+
+    .login_senha3:valid,
+    .login_senha3:valid.used{
+      color: #000;
+    }
+
+    .login_senha3:focus ~ .bar_numero:before,
+    .login_senha3:focus ~ .bar_numero:after {
+      width: 50%;
+    }
+
+
+    .data{
+      position: relative;
+      margin-bottom: 2.4em;
+      margin-left: 20px;
+      margin-top: -20px;
+      float: left;
+    }
+
+    .login_senha4{
+      color:#000;
+      padding: 10px 10px 5px 0px;
+      display: block;
+      outline: none;
+      border: none;
+      width: 170px;
+      border-bottom: 1px solid #9c0404;
+      font-size: 30px;
+      font-family: aller_lightregular;
+    }
+
+    /* Animação */
+    .bar_data {
+      position: relative;
+      display: block;
+      width: 100%;
+    }
+
+    .bar_data:before, .bar_data:after {
+      content: "";
+      height: 2px;
+      width: 0;
+      bottom: -1px;
+      position: absolute;
+      background: #9c0404;
+      transition: 0.2s ease all;
+    }
+
+    .bar_data:before { left: 50%; }
+    .bar_data:after { right: 50%; }
+
+    /* Validação de acordo com o texto digitado */
+    .login_senha4:valid { border-bottom: 1px solid #9c0404; }
+
+    .login_senha4:valid ~ .bar_data:before,
+    .login_senha4:valid ~ .bar_data:after {
+      background: #9c0404 !important;
+    }
+
+    .login_senha4:focus,
+    .login_senha4.used{
+      top: -20px;
+      font-size: 16px;
+      color: #000;
+    }
+
+    .login_senha4:valid,
+    .login_senha4:valid.used{
+      color: #000;
+    }
+
+    .login_senha3:focus ~ .bar_data:before,
+    .login_senha3:focus ~ .bar_data:after {
+      width: 50%;
+    }
+
+    .lugar_botao{}
+
+    .btn_cadastrar{
+      width: 300px;
+      height: 60px;
+      margin: auto;
+      margin-top: 50px;
+      border: 3px solid #9c0404;
+      outline: none;
+      color: #9c0404;
+      background-color: white;
+      font-size: 35px;
+      font-family: aller_lightregular;
+
+    }
+
+    .btn_cadastrar:hover{
+      color: white;
+      background-color: #9c0404;
+      transition: 0.2s ease all;
+
+    }
+
+    .cartoes_cadastrados{
+      width: 100%;
+      height: 580px;
+      overflow: auto;
+      margin-top: 50px;
+    }
+
+    .titulo_cartoes_cadstrados{
+      font-size:35px;
+      margin-left: 25px;
+      padding-top: 25px;
+      font-family: aller_lightregular;
+      color: #9c0404;
+
+    }
+
+    .cartoes_banco{
+      width: 500px;
+      height: 150px;
+      border: solid 3px #9c0404;
+      margin-left: 50px;
+      margin-top: 50px;
+    }
+    .cartoes_banco img{
+      width: 125px;
+      height: 125px;
+      margin-top: 10px;
+      float: left;
+
+    }
+    .cartao{
+      width: 125px;
+      height: 125px;
+      margin-top: 10px;
+      float:left;
+
+    }
+    .cartao img{
+      width: 125px;
+      height: 125px;
+      margin-top: 3px;
+      float: left;
+    }
+
+    .labels{
+      width: 350px;
+      height: 150px;
+      float: left;
+    }
+
+    .nome_cartao{
+      font-size: 30px;
+      padding-top: 25px;
+      font-family: aller_lightregular;
+      color: #9c0404;
+      float: left;
+    }
+
+    .nome_vem_do_banco{
+      font-size: 30px;
+      margin-left: 2px;
+      padding-top: 25px;
+      font-family: aller_lightregular;
+      color: #000;
+      float: left;
+    }
+
+    .numero_cartao{
+      font-size: 30px;
+      padding-top: 15px;
+      font-family: aller_lightregular;
+      color: #9c0404;
+      float: left;
+      clear: both;
+    }
+
+    .numero_vem_do_banco{
+      font-size: 30px;
+      margin-left: 2px;
+      padding-top: 15px;
+      font-family: aller_lightregular;
+      color: #000;
+      float: left;
+    }
+
+    .delete-rede img{
+      width: 25px;
+      height: 25px;
+      margin-left: 320px;
+      margin-top: 0px;
+    }
+
+    
+}

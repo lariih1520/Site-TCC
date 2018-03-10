@@ -1,0 +1,324 @@
+/**
+    Feito por: Larissa
+    Data: 17/10
+**/
+
+#conteudo{
+    width:1640px;
+    height: 1335px;
+    margin-top: -30px;
+    padding-right: 5px;
+    padding-left: 2px;
+}
+
+.titulo_historico{
+    width:1650;
+    height:40px;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-left: 10px;
+    clear: both;
+    color: #9c0404;
+}
+#cadastrar_evento{
+    width:100%;
+    height:650px;
+}
+.margem{
+    float: left;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #9c0404;
+}
+.imagens_evento{
+    float: left;
+    clear: both;
+    width:1645px;
+    height:300px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.lista_imgs_evento{
+    list-style: none;
+}
+.lista_imgs_evento li{
+    width: 320px;
+    height:300px;
+    float: left;
+    margin-left: 5px;
+    text-align: center;
+    border: solid 1px #FFF;
+}
+.imgEvento{
+    width: 250px;
+    height:200px;
+    margin-top: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px #c0c0c0;
+}
+.imgEvento img{
+    max-width: 100%;
+    max-height: 200px;
+}
+.lista_imgs_evento li p{
+    font-size: 25px;
+    margin-top: 4px;
+}
+.clear{
+    float: left;
+    clear: both;
+}
+
+.textareaClear{
+  width: 550px;
+  font-size: 20px;
+  margin-top: -20px;
+  border: solid 1px #c0c0c0;
+}
+
+.textareaMargem{
+  width: 400px;
+  font-size: 20px;
+
+
+}
+
+
+.botao{
+    width: 80px;
+    float: left;
+    clear: both;
+    font-size: 20px;
+    margin-left: 15px;
+}
+.lado{
+    margin-left: 5px;
+    float: left;
+}
+
+.nome{
+  position: relative;
+  margin-bottom: 2.4em;
+  margin-top: 80px;
+  float: left;
+}
+
+.login_senha{
+  color:#000;
+  padding: 10px 10px 5px 0px;
+  display: block;
+  outline: none;
+  border: none;
+  width: 200px;
+  margin-top: -50px;
+  font-size: 18px;
+  font-family: aller_lightregular;
+}
+
+
+/* Animação */
+.bar_nome {
+  position: relative;
+  display: block;
+  width: 210px;
+}
+
+.bar_nome:before, .bar_nome:after {
+  content: "";
+  height: 2px;
+  width: 0;
+  bottom: -1px;
+  position: absolute;
+  background: #9c0404;
+  transition: 0.2s ease all;
+}
+
+.bar_nome:before { left: 50%; }
+.bar_nome:after { right: 50%; }
+
+/* Validação de acordo com o texto digitado */
+.login_senha:valid { border-bottom: 1px solid #9c0404; }
+
+.login_senha:valid ~ .bar_nome:before,
+.login_senha:valid ~ .bar_nome:after {
+  background: #9c0404 !important;
+}
+
+.login_senha:focus,
+.login_senha.used{
+  top: -20px;
+  font-size: 16px;
+  color: #9c0404;
+}
+
+.login_senha:valid,
+.login_senha:valid.used {
+  color: #9c0404;
+}
+
+.login_senha:focus ~ .bar_nome:before,
+.login_senha:focus ~ .bar_nome:after {
+  width: 50%;
+}
+
+.data{
+  position: relative;
+  margin-bottom: 2.4em;
+  margin-top: 85px;
+  float: left;
+}
+
+.login_senha_data{
+  color:#000;
+  padding: 10px 10px 5px 0px;
+  display: block;
+  outline: none;
+  border: none;
+  width: 200px;
+  margin-top: -55px;
+  margin-left: 20px;
+  font-size: 18px;
+  font-family: aller_lightregular;
+}
+
+
+/* Animação */
+.bar_data{
+  position: relative;
+  display: block;
+  width: 210px;
+  margin-left: 20px;
+}
+
+.bar_data:before, .bar_data:after {
+  content: "";
+  height: 2px;
+  width: 0;
+  bottom: -1px;
+  position: absolute;
+  background: #9c0404;
+  transition: 0.2s ease all;
+}
+
+.bar_data:before { left: 50%; }
+.bar_data:after { right: 50%; }
+
+/* Validação de acordo com o texto digitado */
+.login_senha_data:valid { border-bottom: 1px solid #9c0404; }
+
+.login_senha_data:valid ~ .bar_data:before,
+.login_senha_data:valid ~ .bar_data:after {
+  background: #9c0404 !important;
+}
+
+.login_senha_data:focus,
+.login_senha_data.used{
+  top: -20px;
+  font-size: 16px;
+  color: #9c0404;
+}
+
+.login_senha_data:valid,
+.login_senha_data:valid.used {
+  color: #9c0404;
+}
+
+.login_senha_data:focus ~ .bar_data:before,
+.login_senha_data:focus ~ .bar_data:after {
+  width: 50%;
+}
+
+
+textarea{
+    resize: none;
+}
+.cadastrar_imagem{
+    width:190px;
+    height:200px;
+    border: solid 1px #c0c0c0;
+}
+.cadastrar_imagem img{
+    width:190px;
+    height:200px;
+}
+#historico_evento{
+    width:1615px;
+    height:360px;
+    font-size: 28px;
+    padding-top:10px;
+    padding-left:20px;
+    overflow-y:scroll;
+    text-align: center;
+    float: left;
+}
+
+.btn_cadastrar{
+  width: 150px;
+  height: 50px;
+  margin-left: 40px;
+  margin-top: 10px;
+  border: 3px solid #9c0404;
+  outline: none;
+  color: #9c0404;
+  background-color: white;
+  font-size: 18px;
+  font-family: aller_lightregular;
+  float: left;
+
+}
+
+.btn_cadastrar:hover{
+  color: white;
+  background-color: #9c0404;
+  transition: 0.2s ease all;
+
+}
+.eventos_todos{
+    float: left;
+    width:300px;
+    height:360px;
+    margin: 5px;
+    padding-top:5px;
+    border: solid 1px #c0c0c0;
+    font-family: aller_lightregular;
+}
+.img_evento_todos{
+    width:280px;
+    height: 200px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.img_evento_todos img{
+  width: 190px;
+  height: 190px;
+  margin: auto;
+}
+.detalhes_evento_todos{
+    font-size: 22px;
+    padding-left: 15px;
+}
+.opt_eventos{
+  width:300px;
+  height: 37px;
+}
+.opt_eventos img{
+  width: 35px;
+  height: 35px;
+  margin-left: 75px;
+  float: left;
+}
+
+.detalhes_evento_todos p b{
+  color: #9c0404;
+
+}
+
+.titulo_evento{
+  color: #000;
+  font-family: aller_lightregular;
+  font-weight: bold;
+
+}

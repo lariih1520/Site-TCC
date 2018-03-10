@@ -1,0 +1,125 @@
+/*CSS*/
+#cima{
+  width: 90%;
+  height: 250px;
+  border-bottom: solid 3px #9c0404;
+  margin:auto;
+}
+#cima p{
+  height:40px;
+  font-size: 40px;
+  color: #9c0404;
+  font-family: aller_lightregular;
+}
+#cima form{
+  width: 200px;
+  height: 300px;
+  margin: auto;
+}
+#cima input{
+  clear: both;
+  width: 200px;
+  height: 30px;
+  margin-top: 10px;
+}
+#chkbox{
+  clear: both;
+  width: 200px;
+  height: 30px;
+  margin-top: 10px;
+  font-size: 15px;
+  line-height: 30px;
+  color: #9c0404;
+  font-family: aller_lightregular;
+}
+#chkbox input{
+  float: right;
+  width: 20px;
+  height: 20px;
+  margin-top: 5px;
+}
+
+#input-lugares{
+  clear: both;
+  width: 50px;
+  height: 30px;
+  margin-top: 10px;
+}
+#cima select{
+  clear: both;
+  margin: auto;
+  width: 200px;
+  margin-left: 1px;
+  height: 30px;
+  margin-top: 10px;
+}
+#mesa_idx{
+  width: 90%;
+  height: 25px;
+  margin: auto;
+  font-size: 15px;
+  margin-top: 10px;
+  text-align: center;
+  color: #9c0404;
+  font-family: aller_lightregular;
+}
+.numero_idx{
+  width: 100px;
+  height: 15px;
+  float: left;
+  margin-left: 5px;
+  text-align: center;
+}
+#restaurante_idx{
+  width: 800px;
+  height: 20px;
+  float: left;
+  margin-left: 5px;
+}
+#baixo{
+  width: 90%;
+  height: 550px;
+  margin: auto;
+  margin-top: 10px;
+}
+.mesa{
+  width: 100%;
+  height: 50px;
+  border-bottom: solid 1px #9c0404;
+  margin-bottom: 5px;
+  float: left;
+  text-align: center;
+}
+.numero{
+  width: 100px;
+  height: 49px;
+  float: left;
+  margin-left: 5px;
+  text-align: center;
+  line-height: 45px;
+  font-size: 40px;
+  font-family: aller_lightregular;
+}
+.restaurante{
+  width: 800px;
+  height: 49px;
+  float: left;
+  margin-left: 5px;
+  text-align: center;
+  line-height: 45px;
+  font-size: 40px;
+  font-family: aller_lightregular;
+}
+.opt{
+  width: 150px;
+  height: 49px;
+  float: left;
+  margin-left: 5px;
+}
+.opt img{
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+  float: left;
+  margin-left: 5px;
+}

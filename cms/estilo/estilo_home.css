@@ -1,0 +1,185 @@
+/*
+    Css página adm home
+    Feito por: Larissa
+    Data: 21/10/2017
+*/
+
+#conteudo{
+    width: 1630px;
+    height: 1850px;
+    padding-top:8px;
+}
+.titulo_slide{
+    width: 1610px;
+    height: 50px;
+    color: #9c0404;
+    padding: 5px;
+    padding-top: 10px;
+    font-size: 30px;
+    margin-left: 5px;
+}
+.titulo_slide input{
+    float: right;
+    font-size: 25px;
+    margin-right: 10px;
+    padding: 2px 8px 2px 8px;
+}
+.estilo_botao{
+    color:#9c0404;
+    background-color: white;
+    border: solid 3px #9c0404;
+}
+.estilo_botao:hover{
+    color:white;
+    background-color: #9c0404;
+}
+.content_slide{
+    width: 1520px;
+    min-height: 460px;
+    height: auto;
+    padding: 5px;
+    padding-left: 40px;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 30px;
+    text-align: center;
+    color:#9c0404;
+}
+.imagem_slide{
+    float: left;
+    width: 420px;
+    height: 280px;
+    text-align: center;
+    padding-top: 8px;
+    margin: 10px 20px 10px 20px;
+}
+.img_slide{
+    max-width: 390px;
+    height: 200px;
+    border: solid 1px #C0C0C0;
+}
+.imagem_carrossel{
+    float: left;
+    width: 350px;
+    height: 280px;
+    text-align: center;
+    padding-top: 8px;
+    margin: 10px 20px 10px 20px;
+}
+.img_carrossel{
+    max-width: 320px;
+    height: 200px;
+    border: solid 1px #C0C0C0;
+}
+.EditarExcluir{
+    width:250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.clear{
+    float: left;
+    clear: both;
+    width:100%;
+}
+.left{
+    margin-top: 20px;
+    float: left;
+    font-size: 28px;
+}
+.right{
+    margin-top: 20px;
+    float: right;
+    font-size: 28px;
+}
+.icone{
+    width:30px;
+    height:30px !important;
+}
+
+.imagem{
+    width: 100%;
+    height:100%;
+}
+.divisao_menu_1{
+    width: 1400px;
+    height: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.menu_img_1{
+    float: left;
+    width: 560px;
+    height: 290px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: solid 1px black;
+}
+.img_1{
+    max-width: 500px;
+    height: 190px;
+    margin: 5px;
+    margin-left:auto;
+    margin-right:auto;
+    border: solid 1px black;
+}
+.menu_img_2{
+    float: left;
+    width:390px;
+    height:290px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: solid 1px black;
+}
+.img_2{
+    max-width:300px;
+    height:190px;
+    margin: 5px;
+    margin-left:auto;
+    margin-right:auto;
+    border: solid 1px black;
+}
+.divisao_menu_2{
+    width: 1400px;
+    height: 410px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu_img_3{
+    float: left;
+    width: 385px;
+    height: 350px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: solid 1px black;
+}
+.img_3{
+    max-width: 300px;
+    height: 250px;
+    margin: 5px;
+    margin-left:auto;
+    margin-right:auto;
+    border: solid 1px black;
+}
+.content_img_4{
+    float: left;
+    width:495px;
+    height:380px;
+}
+.menu_img_4{
+    width:475px;
+    height:170px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: solid 1px black;
+}
+
+.img_4{
+    max-width:400px;
+    height:100px;
+    margin: 5px;
+    margin-left:auto;
+    margin-right:auto;
+    border: solid 1px black;
+}

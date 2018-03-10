@@ -1,0 +1,170 @@
+/*
+    Css Adm_Pratos
+    Data:18/10/17
+*/
+
+*{
+    margin: 0;
+}
+#conteudo{
+    width:1630px;
+    height:1300px;
+    padding:10px;
+}
+#nav_cima {
+    margin: 0px ;
+    width: 100%;
+    height: 80px;
+}
+
+#nav_cima ul {
+    width:100%;
+    list-style: none;
+}
+#nav_cima ul li{
+    width:30%;
+    float: left;
+    height: 38px;
+    font-size: 28px;
+    padding: 20px;
+    text-align: center;
+    margin-right: 10px;
+    box-shadow: 0px 0px 10px #303030;
+}
+#cadastrar_prato{
+    width:1640px;
+    height:650px;
+}
+.content_cadastrar{
+    float: left;
+    width:524px;
+    height:580px;
+    font-size: 25px;
+    padding:10px;
+    border: solid 1px white;
+}
+p{
+    margin-top: 10px;
+}
+.titulo_novo{
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #9c0404;
+    font-family: aller_lightregular;
+}
+.lado{
+    float: left;
+    margin-right: 8px;
+}
+
+.lado p{
+color: #9c0404;
+font-family: aller_lightregular;
+
+
+}
+
+.clear{
+    clear: both;
+}
+
+.clear p{
+color: #9c0404;
+font-family: aller_lightregular;
+
+}
+
+.content_cadastrar select{
+    font-size: 18px;
+}
+.ver_img_editar{
+    width:225px;
+    height:240px;
+    text-align: center;
+    border: solid 1px black;
+}
+.ver_img_editar img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.botao{
+    color:#9c0404;
+    font-size: 22px;
+    margin-top: 30px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: white;
+    border: solid 2px #9c0404;
+    padding: 6px 12px 6px 12px;
+}
+.botao:hover{
+    color:white;
+    font-size: 22px;
+    margin-top: 30px;
+    background-color: #9c0404;
+}
+#pratos_cadastrados{
+    width:1640px;
+    height:550px;
+    margin-top: 10px;
+}
+.titulo_pratos{
+    width:1630px;
+    height:50px;
+    padding-top: 20px;
+    padding-left: 10px;
+    font-size: 32px;
+    color: #9c0404;
+}
+#todos_pratos{
+    width:1635px;
+    height:500px;
+    color:#9c0404;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 5px;
+    overflow-y: scroll;
+}
+.titulo_scroll{
+    font-size: 30px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+
+.prato_scroll{
+    width:400px;
+    height:450px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    overflow-y: scroll;
+    border: solid 1px #C0C0C0;
+}
+.pratos{
+    float: left;
+    width:300px;
+    height:290px;
+    margin: 5px;
+}
+.img_prato{
+    width:298px;
+    height:190px;
+    text-align: center;
+    margin-bottom: 5px;
+    border:solid 1px #C0C0C0;
+}
+.img_prato img{
+    max-width:298px;
+    height:190px;
+}
+.desc_prato{
+    width:295px;
+    height:80px;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 10px;
+}
+textarea{
+    resize:none;
+}

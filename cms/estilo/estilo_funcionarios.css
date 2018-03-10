@@ -1,0 +1,104 @@
+/**
+    Feito por: Larissa
+    Data: 26/10/2017
+**/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 1850px;
+    height:80px;
+    font-size: 30px;
+    padding-top: 40px;
+    padding-left: 50px;
+    border: solid 1px blue;
+}
+nav{
+    float: left;
+    width:250px;
+    height:820px;
+    border: solid 1px blue;
+}
+section{
+    float: left;
+    width:1600px;
+    height:820px;
+    border: solid 1px black;
+}
+#novo_funcionario{
+    width:1530px;
+    height:750px;
+    padding: 20px;
+    border: solid 1px #FFF;
+}
+.content_lado{
+    float: left;
+    width: 700px;
+    height:560px;
+    padding: 10px 40px 10px 40px;
+    border: solid 1px transparent;
+}
+.lado{
+    margin: 10px;
+    float: left;
+    font-size: 25px;
+}
+.clear{
+    float: left;
+    clear: both;
+}
+.lado input{
+    font-size: 16px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+.lado select{
+    font-size: 16px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+.ver_foto_funcionario{
+    width:250px;
+    height:280px;
+    border: solid 1px black;
+}
+.addImagem{
+    width:250px;
+    height: 50px;
+    background:#C0C0C0;
+    position: absolute;
+}
+.botao{
+    color:#9c0404;
+    font-size: 22px;
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: white;
+    border: solid 2px #9c0404;
+    padding: 5px 10px 5px 10px;
+}
+.botao:hover{
+    color:white;
+    background-color: #9c0404;
+}
+#todos_funcionario{
+    float: right;
+    width:600px;
+    height:720px;
+    padding: 20px;
+    border: solid 1px black;
+}
+.titulo{
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+#lista_funcionarios{
+    width:600px;
+    height:680px;
+    overflow-y: scroll;
+    border: solid 1px #FFF;
+}
+
+

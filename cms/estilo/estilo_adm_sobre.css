@@ -1,0 +1,433 @@
+/*CSS*/
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*ÁREA DAS IMAGENS / JEITO*/
+#area_jeito{
+    margin-top: -30px;
+    width: 1500px;
+    height: 900px;
+    margin: auto;
+}
+
+#titulo_jeito {
+    width: 300px;
+    height: 100px;
+    font-family: aller_lightregular;
+    font-size: 50px;
+    color: #9c0404;
+}
+
+#cont_jeito {
+    width: 1500px;
+    height: 710px;
+}
+
+.subs_jeito {
+    width: 750px;
+    height: 50px;
+    float: left;
+    font-family: aller_lightregular;
+    font-size: 30px;
+}
+
+#txt_jeito_antigo {
+    text-align: left;
+}
+
+#txt_jeito_theribs {
+    text-align: right;
+}
+
+.linha_jeito {
+    width: 1500px;
+    height: 200px;
+    margin-top: 25px;
+    clear: both;
+}
+
+.objeto_meio{
+    width: 250px;
+    height: 200px;
+    margin-left: 25px;
+    margin-right: 25px;
+    float: left;
+}
+
+.objeto_extremidades{
+    width: 250px;
+    height: 200px;
+    margin-left: 325px;
+    float: left;
+}
+
+
+
+.obj_img {
+    width: 200px;
+    height: 170px;
+    margin: auto;
+}
+.obj_img img{
+  width: 200px;
+  height: 170px;
+  margin: auto;
+}
+
+.objeto_extremidades input{
+    width: 250px;
+    height: 25px;
+    margin-top: 5px;
+    float: left;
+}
+
+.objeto_meio input{
+    width: 250px;
+    height: 25px;
+    margin-top: 5px;
+    float: left;
+}
+
+#botao_salvar_jeito {
+    width: 150px;
+    height: 50px;
+    margin-top: 140px;
+    float: right;
+    border: 3px solid #9c0404;
+    outline: none;
+    color: #9c0404;
+    background-color: white;
+    font-size: 18px;
+    font-family: aller_lightregular;
+}
+#botao_salvar_jeito:hover{
+  color: white;
+  background-color: #9c0404;
+  transition: 0.2s ease all;
+}
+
+
+/*ÁREA DA HISTÓRIA / ANO*/
+#cont_hist {
+    width: 1500px;
+    height: 700px;
+    margin-top: 50px;
+}
+#anos_hist {
+    width: 300px;
+    height: 700px;
+    float: left;
+    border: solid 3px #740000;
+}
+
+#titulo_anos_hist {
+    width: 300px;
+    height: 40px;
+    border-bottom: solid 2px #740000;
+    background-color: #9c0404;
+    font-family: aller_lightregular;
+    font-size: 30px;
+    color: #fff;
+}
+
+#list_anos {
+    width: 300px;
+    height: 650px;
+    list-style: none;
+    color: #9c0404;
+    font-family: aller_lightregular;
+    font-size: 30px;
+}
+
+#edit_hist {
+    width: 1190px;
+    height: 700px;
+    float: left;
+    border-right: solid 3px #740000;
+    border-bottom: solid 3px #740000;
+    border-top: solid 3px #740000;
+}
+
+#list_anos li{
+    width: 300px;
+    height: 40px;
+    border-bottom: solid 2px;
+}
+
+.opt_hist {
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin: 5px;
+}
+
+#input_hist{
+    margin-left: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 400px;
+    height: 40px;
+    border: 1px solid #9c0404;
+    background-color: white;
+    font-size: 18px;
+    font-family: aller_lightregular;
+}
+#input_hist:focus{
+    box-shadow: 0px 0px 1px 1px #9c0404;
+    outline: 0;
+}
+
+#edit_hist textarea{
+    margin-left: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 800px;
+    resize: none;
+    height: 300px;
+    border: 1px solid #9c0404;
+    font-size: 18px;
+    font-family: aller_lightregular;
+}
+#edit_hist textarea:focus{
+    box-shadow: 0px 0px 1px 1px #9c0404;
+    outline: 0;
+}
+
+#botao_salvar_hist {
+    margin-left: 50px;
+    margin-top: 25px;
+    width: 150px;
+    height: 50px;
+    border: 3px solid #9c0404;
+    outline: none;
+    color: #9c0404;
+    background-color: white;
+    font-size: 18px;
+    font-family: aller_lightregular;
+}
+#botao_salvar_hist:hover{
+  color: white;
+  background-color: #9c0404;
+  transition: 0.2s ease all;
+}
+
+
+/*ÁREA DO SLIDER*/
+#cont_slider {
+    width: 1500px;
+    height: 500px;
+    margin-top: 50px;
+}
+
+#titulo_slider {
+    width: 125px;
+    height: 50px;
+    font-family: aller_lightregular;
+    font-size: 50px;
+    color: #9c0404;
+    float: left;
+}
+
+.btn_slider {
+    width: 150px;
+    height: 50px;
+    float: right;
+    margin-left: 50px;
+    border: 3px solid #9c0404;
+    outline: none;
+    color: #9c0404;
+    background-color: white;
+    font-size: 18px;
+    font-family: aller_lightregular;
+    margin-bottom: 25px;
+}
+.btn_slider:hover{
+  color: white;
+  background-color: #9c0404;
+  transition: 0.2s ease all;
+}
+
+
+#area_imagens_slider {
+    width: 1500px;
+    height: 425px;
+    margin-top: 75px;
+    position: absolute;
+    overflow-y: auto;
+}
+
+.obj_slider {
+    width: 400px;
+    height: 400px;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.img_slider {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    background-color: #e8e8e8;
+}
+
+.opt_slider {
+    width: 100px;
+    height: 50px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: aller_lightregular;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.img_opt_slider {
+    width: 25px;
+    height: 25px;
+    float: left;
+}
+
+
+/*ÁREA INSTITUCIONAL*/
+#cont_inst{
+    width: 1500px;
+    height: 700px;
+    margin-top: 50px;
+
+}
+
+#lst_lateral {
+    width: 300px;
+    height: 700px;
+    float: left;
+    list-style: none;
+    border: solid 3px #740000;
+    font-family: aller_lightregular;
+}
+#lst_lateral li{
+    width: 300px;
+    height: 60px;
+    border-bottom: solid 2px #740000;
+    font-size: 30px;
+    line-height: 60px;
+}
+#edit_inst {
+    width: 1190px;
+    height: 700px;
+    float: left;
+    border-top: solid 3px #740000;
+    border-right: solid 3px #740000;
+    border-bottom: solid 3px #740000;
+}
+
+
+#input_inst {
+    margin-left: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 400px;
+    height: 40px;
+    border: 1px solid #9c0404;
+    background-color: white;
+    font-size: 18px;
+    font-family: aller_lightregular;
+}
+#input_inst:focus{
+    box-shadow: 0px 0px 1px 1px #9c0404;
+    outline: 0;
+}
+
+#edit_inst textarea {
+    margin-left: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 600px;
+    resize: none;
+    height: 300px;
+    border: 1px solid #9c0404;
+    font-size: 18px;
+    font-family: aller_lightregular;
+}
+#edit_inst textarea:focus{
+    box-shadow: 0px 0px 1px 1px #9c0404;
+    outline: 0;
+}
+
+#btn_inst {
+    width: 150px;
+    height: 50px;
+    float: right;
+    margin-right: 200px;
+    margin-top: 25px;
+    border: 3px solid #9c0404;
+    outline: none;
+    color: #9c0404;
+    background-color: white;
+    font-size: 18px;
+    font-family: aller_lightregular;
+}
+#btn_inst:hover{
+    color: white;
+    background-color: #9c0404;
+    transition: 0.2s ease all;
+}
+/*MODAL*/
+.modal {
+position: fixed;
+font-family: Arial, Helvetica, sans-serif;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+z-index: 99999;
+opacity:0;
+-webkit-transition: opacity 400ms ease-in;
+-moz-transition: opacity 400ms ease-in;
+transition: opacity 400ms ease-in;
+pointer-events: none;
+}
+
+.modal:target {
+opacity:1;
+pointer-events: auto;
+}
+
+.modal > div{
+width: 400px;
+height: 100px;
+position: relative;
+margin: 10% auto;
+margin-top: 150px;
+padding: 5px 20px 13px 20px;
+border-radius: 10px;
+background: #fff;
+background-color: #c0c0c0;
+}
+
+.fechar {
+background: #9c0404;
+color: #FFFFFF;
+line-height: 25px;
+position: absolute;
+right: 9px;
+top: 5px;
+text-align: center;
+width: 24px;
+text-decoration: none;
+font-weight: bold;
+-webkit-border-radius: 12px;
+-moz-border-radius: 12px;
+border-radius: 12px;
+-moz-box-shadow: 1px 1px 3px #000;
+-webkit-box-shadow: 1px 1px 3px #000;
+box-shadow: 1px 1px 3px #000;
+}
+
+.fechar:hover { background: #9c0404; }

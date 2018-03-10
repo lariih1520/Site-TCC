@@ -1,0 +1,193 @@
+#principal{
+    width: 2100px;
+    height: 1500px;
+}
+
+#cabecalho{
+    width: 2095px;
+    height: 100px;
+}
+
+#texto{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 40px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+#menu_lateral{
+    width: 380px;
+    height: 1385px;
+    float: left;
+}
+
+#perfil{
+    width: 372px;
+    height: 500px;
+}
+
+#img_perfil{
+    width: 250px;
+    height: 250px;
+    border: solid 4px black;
+    border-radius: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+#nome{
+    width: 330px;
+    height: 180px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+#nome_format{
+    margin-top: 30px;
+    text-align: center;
+    margin-right: 10px;
+    font-size: 30px;
+    margin-left: 20px;
+    
+}
+
+#img{
+    width: 60px;
+    height: 60px;
+    border: solid 2px black;
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+#conteudo{
+    width: 1706px;
+    height: 1385px;
+    float: left;
+}
+
+#divisao1{
+    width: 1680px;
+    height: 700px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#divisao2{
+    width: 1680px;
+    height: 640px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#cont{
+    width: 1100px;
+    height: 600px;
+    border: solid 3px black;
+    float: left;
+    margin-left: 60px;
+    margin-top: 30px;
+    border-radius: 50px;
+}
+
+#input{
+    width: 650px !important;
+    margin-bottom: 50px;
+    margin-left: 15px;
+    margin-top: 90px;
+}
+
+#input1{
+    width: 250px !important;
+    float: left;
+    margin-bottom: 50px;
+    margin-left: 15px;
+    margin-top: 90px;
+}
+
+#input2{
+    width: 380px !important;
+    float: left;
+    margin-bottom: 50px;
+    margin-left: 15px;
+    margin-top: 90px;
+}
+
+#input3{
+    width: 250px !important;
+    float: left;
+    clear: both;
+    margin-bottom: 50px;
+    margin-left: 15px;
+    margin-top: 90px;
+}
+
+.formatacao{
+    width: 110px;
+    height: 50px;
+    float: left; 
+    margin-left: 10px;
+}
+
+.botao{
+    width: 80px;
+    height: 50px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#botao_config{
+    width: 160px;
+    height: 160px;
+    float: right;
+    margin-right: 220px;
+    margin-top: 310px;
+}
+
+#titulo{
+    width: 1680px;
+    height: 100px;
+}
+
+#texto_cont2{
+    margin-top: 30px;
+    font-size: 40px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+#conteudo_cont2{
+    width: 600px;
+    height: 510px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.cartao_cadastrado{
+    width: 200px;
+    height: 90px;
+    float: left;
+    border: solid 5px black;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.texto_info{
+    margin-top: 30px;
+    font-size: 25px;
+    float: left;
+    width: 300px;
+    height: 90px;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+

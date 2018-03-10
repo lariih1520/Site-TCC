@@ -1,0 +1,28 @@
+.estrelas input[type=radio]{
+	display: none;
+}.estrelas label i.fa:before{
+	content: '\f005';
+	color: #FC0;
+}.estrelas  input[type=radio]:checked  ~ label i.fa:before{
+	color: #CCC;
+}
+
+.btn_entrar{
+  width: 100px;
+  height: 35px;
+  margin-left: 30px;
+  border: 3px solid #9c0404;
+  outline: none;
+  color: #9c0404;
+  background-color: white;
+  font-size: 18px;
+  font-family: aller_lightregular;
+
+}
+
+.btn_entrar:hover{
+  color: white;
+  background-color: #9c0404;
+  transition: 0.2s ease all;
+
+}

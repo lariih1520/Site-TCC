@@ -1,0 +1,250 @@
+@font-face {
+    font-family: 'allerbold';
+    src: url('../fonts/Aller/aller_bd-webfont.woff2') format('woff2'),
+         url('../fonts/Aller/aller_bd-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'allerbold_italic';
+    src: url('../fonts/Aller/aller_bdit-webfont.woff2') format('woff2'),
+         url('../fonts/Aller/aller_bdit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'alleritalic';
+    src: url('../fonts/Aller/aller_it-webfont.woff2') format('woff2'),
+         url('../fonts/Aller/aller_it-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aller_lightregular';
+    src: url('../fonts/Aller/aller_lt-webfont.woff2') format('woff2'),
+         url('../fonts/Aller/aller_lt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aller_lightitalic';
+    src: url('../fonts/Aller/aller_ltit-webfont.woff2') format('woff2'),
+         url('../fonts/Aller/aller_ltit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'allerregular';
+    src: url('../fonts/Aller/aller_rg-webfont.woff2') format('woff2'),
+         url('../fonts/Aller/aller_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aller_displayregular';
+    src: url('../fonts/Aller/allerdisplay-webfont.woff2') format('woff2'),
+         url('../fonts/Aller/allerdisplay-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.conteudo_adm_cor{
+  width: 83%;
+  height: 860px;
+  margin: auto;
+}
+
+.cores_antigas{
+  width: 800px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+
+}
+
+.texto_cores_antigas{
+  font-size: 30px;
+  color: #000;
+  font-family: aller_lightregular;
+  padding-left: 250px;
+  padding-top: 10px;
+
+
+}
+
+.cor_antiga1{
+  width: 300px;
+  height: 100px;
+  background-color: #9c0404;
+  margin-top: 30px;
+  margin-left: 250px;
+  float: left;
+
+}
+
+
+.voltar_cor_antiga{
+  width: 50px;
+  height: 50px;
+  margin-top: 80px;
+  margin-left: 10px;
+  float: left;
+
+}
+
+.voltar_cor_antiga img{
+  width: 50px;
+  height: 50px;
+
+
+
+}
+
+.mudar_cores{
+  width: 100%;
+  height: 420px;
+  float: left;
+  margin-top: 20px;
+
+}
+
+.tabela_cores{
+  width:65%;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+
+
+
+#change{
+  height:80px;
+  width:1040px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 30px;
+}
+
+#fixed{
+  height:50px;
+  width:797px;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+
+#red{
+  width: 400px;
+  height:50px;
+  background-color:red;
+  margin-left: 20px;
+
+
+}
+
+#valred{
+  display: none;
+
+}
+
+#green{
+  width: 400px;
+  height:50px;
+  background-color:green;
+
+}
+
+#valgreen{
+  display: none;
+
+}
+
+#blue{
+  width: 400px;
+  height:70px;
+  background-color:blue;
+
+}
+
+#valblue{
+  display: none;
+
+}
+
+#slideRed{
+  background-color: black;
+  height:20px;
+  width: 100%;
+
+}
+
+#slideGreen{
+  background-color: black;
+  height:20px;
+  width: 100%;
+
+}
+
+#slideBlue{
+  background-color: black;
+  height:20px;
+  width: 100%;
+
+}
+
+.botao_alterar{
+  width: 700px;
+  height: 180px;
+  margin: auto;
+}
+
+.btn_alterar_cor{
+  width: 300px;
+  height: 60px;
+  margin-left: 200px;
+  margin-top: 65px;
+  border: 3px solid #9c0404;
+  outline: none;
+  color: #9c0404;
+  background-color: white;
+  font-size: 18px;
+  font-family: aller_lightregular;
+
+}
+
+.btn_alterar_cor:hover{
+  color: white;
+  background-color: #9c0404;
+  transition: 0.2s ease all;
+
+}
+
+#corText{
+  opacity: 0;
+}
+
+#valRed{
+  display: none;
+}
+
+#valGreen{
+  display: none;
+}
+
+#valBlue{
+  display: none;
+}

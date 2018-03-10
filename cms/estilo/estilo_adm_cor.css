@@ -1,0 +1,292 @@
+.conteudo_adm_cor{
+  width: 83%;
+  height: 860px;
+  float: left;
+
+}
+
+.cores_antigas{
+  width: 800px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+
+}
+
+.texto_cores_antigas{
+  font-size: 30px;
+  color: #000;
+  font-family: aller_lightregular;
+  padding-left: 20px;
+  padding-top: 10px;
+
+
+}
+
+.cor_antiga1{
+  width: 225px;
+  height: 100px;
+  background-color: #9c0404;
+  margin-top: 30px;
+  margin-left: 15px;
+  float: left;
+
+}
+
+.cor_antiga2{
+  width: 225px;
+  height: 100px;
+  background-color: #000;
+  margin-left: 10px;
+  margin-top: 30px;
+  float: left;
+
+}
+
+.cor_antiga3{
+  width: 225px;
+  height: 100px;
+  background-color: yellow;
+  margin-left: 10px;
+  margin-top: 30px;
+  float: left;
+
+}
+
+.voltar_cor_antiga{
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  margin-top: 80px;
+  margin-left: 10px;
+  float: left;
+
+}
+
+.mudar_cores{
+  width: 100%;
+  height: 620px;
+  float: left;
+  margin-top: 20px;
+
+}
+
+.tabela_cores{
+  width:65%;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+
+
+
+#change{
+  height:50px;
+  width:1040px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 30px;
+
+}
+
+#fixed{
+  height:50px;
+  width:797px;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+
+#red{
+  width: 400px;
+  height:50px;
+  background-color:red;
+  margin-left: 20px;
+
+
+}
+
+#valred{
+  display: none;
+
+}
+
+#green{
+  width: 400px;
+  height:50px;
+  background-color:green;
+
+}
+
+#valgreen{
+  display: none;
+
+}
+
+#blue{
+  width: 400px;
+  height:70px;
+  background-color:blue;
+
+}
+
+#valblue{
+  display: none;
+
+}
+
+#slideRed{
+  background-color: black;
+  height:20px;
+  width: 100%;
+
+}
+
+#slideGreen{
+  background-color: black;
+  height:20px;
+  width: 100%;
+
+}
+
+#slideBlue{
+  background-color: black;
+  height:20px;
+  width: 100%;
+
+}
+
+.botao_alterar{
+  width: 700px;
+  height: 180px;
+  margin-left: 460px;
+  float: left;
+
+}
+
+.btn_alterar_cor{
+  width: 300px;
+  height: 60px;
+  margin-left: 200px;
+  margin-top: 65px;
+  border: 3px solid #9c0404;
+  outline: none;
+  color: #9c0404;
+  background-color: white;
+  font-size: 18px;
+  font-family: aller_lightregular;
+
+}
+
+.btn_alterar_cor:hover{
+  color: white;
+  background-color: #9c0404;
+  transition: 0.2s ease all;
+
+}
+
+.checkboxs{
+  width: 800px;
+  height: 165px;
+  margin-left: 400px;
+
+
+}
+
+.classificando{
+  font-size: 30px;
+  color: #000;
+  font-family: aller_lightregular;
+  padding-left: 20px;
+  padding-top: 60px;
+  float: left;
+
+}
+
+.checkbox1{
+  width: 180px;
+  height: 50px;
+  margin-left: 20px;
+  margin-top: 20px;
+  float: left;
+
+
+}
+
+.checkbox2{
+  width: 180px;
+  height: 50px;
+  margin-left: 20px;
+  margin-top: 20px;
+  float: left;
+
+
+}
+
+.checkbox3{
+  width: 180px;
+  height: 50px;
+  margin-left: 20px;
+  margin-top: 20px;
+  float: left;
+
+}
+
+.cor_primaria{
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  margin-top: 15px;
+  float: left;
+
+}
+
+.texto_cor_primaria{
+  margin-left: 10px;
+  margin-top: 13px;
+  float: left;
+  font-size: 23px;
+  color: #000;
+  font-family: aller_lightregular;
+
+}
+
+.cor_secundaria{
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  margin-top: 15px;
+  float: left;
+
+}
+
+.texto_cor_secundaria{
+  margin-left: 10px;
+  margin-top: 13px;
+  float: left;
+  font-size: 23px;
+  color: #000;
+  font-family: aller_lightregular;
+
+}
+
+
+.cor_terciaria{
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  margin-top: 15px;
+  float: left;
+
+}
+
+.texto_cor_terciaria{
+  margin-left: 10px;
+  margin-top: 13px;
+  float: left;
+  font-size: 23px;
+  color: #000;
+  font-family: aller_lightregular;
+
+}

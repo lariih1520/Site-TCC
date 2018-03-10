@@ -1,0 +1,148 @@
+/**
+    Objetivo: Estilo da página adm Login
+    Feito por: Larissa
+    Data: 16/10/2017    
+**/
+
+body{
+    overflow-x: hidden;
+}
+#conteudo{
+    height: 870px;
+    border: solid 1px black;
+}
+
+#content_motivos_cadastrar{
+    width: 1650px;
+    height: 500px;
+    border: solid 1px black;
+}
+
+#titulo_motivos{
+    width: 95%;
+    height: 30px;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border: solid 1px transparent;
+}
+.cadastrar_motivos{
+    float: left;
+    width: auto /* 650px */;
+    height: 400px;
+    font-size: 22px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    border: solid 1px transparent;
+}
+.cadastrar_imagem{
+    min-width: 250px;
+    max-width: 500px;
+    min-height: 300px;
+    max-height: 300px;
+    border: solid 1px #A0A0A0;
+}
+.cadastrar_imagem img{
+    max-width: 500px;
+    max-height: 300px;
+    border: solid 1px #A0A0A0;
+}
+.tbnSalvar{
+    float: right;
+    width: 100px;
+    font-size: 22px;
+    margin-top: 10px;
+}
+.excluir{
+    float: left;
+    width: 100px;
+    font-size: 22px;
+    margin-top: 10px;
+}
+.icone{
+    float: left;
+    width:50px;
+}
+#content_historico_motivos{
+    width: 1650px;
+    height: 360px;
+    border: solid 1px black;
+}
+.selecionado{
+    border: solid 1px red;
+}
+textarea{
+    resize: none;
+}
+.margem{
+    margin-top: 18px;
+}
+/***** Formatação do slide ******/
+#content {
+    margin: 0 auto;
+    width: 1520px;
+    height: 350px;
+    border: solid 1px black;
+}
+
+#carrossel{
+    float: left;
+    width: 1380px;
+    height: 340px;
+    font-size:30px;
+    text-align: center;
+    overflow: hidden;
+}
+.Lista_motivos{
+    font-size:30px;
+    text-align: center;
+}
+ul.Lista_motivos li{
+    width: 240px;
+    max-height: 320px !important;
+    float: left;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    margin: 0 2px;
+    list-style: none;
+}
+
+.selecionado{
+    box-shadow: 0px 0px 20px #303030;
+}
+
+ul.Lista_motivos li img{
+    width: 235px;
+    height: 150px !important;
+}
+
+.detalhes_prato_carrossel{
+    width:235px;
+    font-size: 25px;
+    min-height: 140px;
+    text-align: center;
+    font-family: aller_lightregular;
+}
+
+#menu-carrossel {
+    float: left;
+    width: 40px;
+    height:340px;
+    font-size: 20px;
+    line-height: 350px;
+    text-align: center;
+}
+#menu-carrossel a img{
+    width: 35px;
+}
+
+ul.Lista_motivos li input{
+    z-index: 99;
+    width:18px;
+    height:18px;
+    margin-top: 2px;
+    margin-left: 5px;
+    position: absolute;
+}

@@ -1,0 +1,181 @@
+@font-face {
+    font-family: 'allerbold';
+    src: url('../fonts/Aller/aller_bd-webfont.woff2') format('woff2'),
+         url('../fonts/Aller/aller_bd-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'allerbold_italic';
+    src: url('../fonts/Aller/aller_bdit-webfont.woff2') format('woff2'),
+         url('../fonts/Aller/aller_bdit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'alleritalic';
+    src: url('../fonts/Aller/aller_it-webfont.woff2') format('woff2'),
+         url('../fonts/Aller/aller_it-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aller_lightregular';
+    src: url('../fonts/Aller/aller_lt-webfont.woff2') format('woff2'),
+         url('../fonts/Aller/aller_lt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aller_lightitalic';
+    src: url('../fonts/Aller/aller_ltit-webfont.woff2') format('woff2'),
+         url('../fonts/Aller/aller_ltit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'allerregular';
+    src: url('../fonts/Aller/aller_rg-webfont.woff2') format('woff2'),
+         url('../fonts/Aller/aller_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aller_displayregular';
+    src: url('../fonts/Aller/allerdisplay-webfont.woff2') format('woff2'),
+         url('../fonts/Aller/allerdisplay-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*******************************
+CSS página histórico de reservas
+    Feito por: Larissa
+    Data: 28/09
+********************************/
+
+#principal{
+    width:1550px;
+    height:1020px;
+    padding-right: 1px;
+    margin-top: 20px;
+    margin-left: 55px;
+}
+#header{
+    height:50px;
+    padding-top: 15px;
+    font-size: 30px;
+    padding-left: 40px;
+    color: #9c0404;
+}
+#identf_cliente{
+    width:97.2%;
+    height:110px;
+    font-size: 26px;
+    padding-left: 40px;
+    border-top:solid 1px #9c0404;
+}
+#identf_cliente p{
+    margin-top: 40px;
+    float: left;
+}
+.foto_cliente{
+    width:100px;
+    height:100px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 5px;
+}
+
+#detalhes_reserva{
+    width:100%;
+    height:500px;
+}
+#content_detalhes1{
+    width:450px;
+    height:490px;
+    float: left;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-left: 30px;
+    border:solid 1px transparent;
+}
+#content_detalhes1 p{
+    margin-top: 10px;
+}
+p#titulo_lst{
+    margin-top: 30px;
+}
+ul.lst_pedidos{
+    margin: 0;
+    padding: 0;
+    margin-left: 50px;
+}
+#content_detalhes2{
+    width:500px;
+    height:500px;
+    float: left;
+    font-size: 28px;
+    padding-left: 10px;
+    border:solid 1px transparent;
+}
+
+#content_detalhes3{
+    width:430px;
+    height:500px;
+    float: left;
+}
+.atendimento{
+    width:300px;
+
+}
+.avaliacao_atendimento table tr td img{
+    width:50px;
+}
+
+
+#titulo_lista_reservas{
+    width:100%;
+    height:60px;
+    padding-top: 20px;
+    font-size: 30px;
+    color: #9c0404;
+}
+#todas_reservas{
+    width:100%;
+    height:380px;
+}
+#lista_reservas{
+    width:102%;
+    height:300px;
+    overflow-y:scroll;
+    border-top:solid 1px black;
+    border-bottom:solid 1px black;
+}
+#lista_reservas table{
+    width:100%;
+}
+#lista_reservas table thead{
+    color:white;
+    width:1460px;
+    /*position: absolute;*/
+    background-color: #A0A0A0;
+}
+#lista_reservas table tr td{
+    height:50px;
+    font-size: 25px;
+    text-align: center;
+}
